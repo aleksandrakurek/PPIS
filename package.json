@@ -1,5 +1,5 @@
 {
-  "name": "project",
+  "name": "ppis",
   "version": "1.0.0",
   "description": "Main site for engineering company.",
   "main": "gulpfile.js",
@@ -10,10 +10,21 @@
     "type": "git",
     "url": "git+https://github.com/aleksandrakurek/PPIS.git"
   },
-  "author": "",
+  "author": "aleksandra kurek",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aleksandrakurek/PPIS/issues"
   },
-  "homepage": "https://github.com/aleksandrakurek/PPIS#readme"
+  "homepage": "https://github.com/aleksandrakurek/PPIS#readme",
+  "dependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp-sass": "^2.3.2",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "main",
+    "site"
+  ]
 }
