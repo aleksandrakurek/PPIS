@@ -1,0 +1,117 @@
+/*-- contact --*/
+.contact {
+	padding: 6em 0;
+}
+.contact form {
+	margin-top: 6em;
+}
+.contact h2 {
+	font-size: 3em;
+	color: #000;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	text-align: center;
+}
+.contact-grid1 {
+	text-align: center;
+}
+.con-ic {
+	width: 30px;
+	height: 30px;
+	display: block;
+	border: 1px solid #13d0ab;
+	-webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+	-moz-transform: rotate(45deg) translate3d(0, 0, 0);
+	-ms-transform: rotate(45deg) translate3d(0, 0, 0);
+	-o-transform: rotate(45deg) translate3d(0, 0, 0);
+	transform: rotate(45deg) translate3d(0, 0, 0);
+	margin: 0 auto;
+}
+.contact-grid1 i {
+	width: 30px;
+	height: 30px;
+	font-size: 0.9em;
+	color: #000;
+	-webkit-transform: rotate(-45deg) translate3d(0, 0, 0);
+	-moz-transform: rotate(-45deg) translate3d(0, 0, 0);
+	-ms-transform: rotate(-45deg) translate3d(0, 0, 0);
+	-o-transform: rotate(-45deg) translate3d(0, 0, 0);
+	transform: rotate(-45deg) translate3d(0, 0, 0);
+	line-height: 1.9em;
+}
+.contact-grid1 h4 {
+	font-size: 1.5em;
+	color: #000;
+	margin: 1em 0 0.5em;
+}
+.contact-grid1 p {
+	font-size: 1em;
+	color: #999;
+	line-height: 1.5em;
+	margin: 0;
+}
+.contact-grid1 p a {
+	color: #999;
+	text-decoration: none;
+}
+.contact-grid1 p a:hover {
+	color: #000;
+}
+.contact-grid1 p span {
+	display: block;
+}
+.contact-grids {
+	margin: 5em 0 0;
+}
+.contact-form1 h4,
+.contact-me h4 {
+	font-size: 1em;
+	color: #797979;
+	margin: 0 0 0.5em;
+}
+.contact-form1 {
+	padding: 0 1em 0 0;
+}
+.contact-form {
+	padding: 0;
+}
+.contact-form1 input[type="email"],
+.contact-form1 input[type="text"],
+.contact-me textarea {
+	outline: none;
+	padding: 10px;
+	border: 1px solid #DFDFDF;
+	background: #EAEAEA;
+	font-size: 14px;
+	color: #999;
+	width: 100%;
+}
+.contact-me textarea {
+	min-height: 300px;
+}
+.contact-me {
+	margin-top: 1em;
+}
+.contact-grids1 input[type="submit"] {
+	outline: none;
+	padding: 10px 0;
+	border: none;
+	background: #13d0ab;
+	font-size: 1em;
+	color: #fff;
+	width: 100%;
+	margin: 1.5em 0 0;
+}
+.contact-grids1 input[type="submit"]:hover {
+	background: #000;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.map iframe {
+	width: 100%;
+	min-height: 500px;
+}
+/*-- //contact --*/

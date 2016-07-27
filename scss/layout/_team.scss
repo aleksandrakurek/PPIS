@@ -1,0 +1,124 @@
+/*--team--*/
+.team-top {
+	-webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+	-moz-transform: rotate(45deg) translate3d(0, 0, 0);
+	-ms-transform: rotate(45deg) translate3d(0, 0, 0);
+	-o-transform: rotate(45deg) translate3d(0, 0, 0);
+	transform: rotate(45deg) translate3d(0, 0, 0);
+	display: inline-block;
+	-webkit-transition: -webkit-transform 300ms ease-out;
+	-moz-transition: -moz-transform 300ms ease-out;
+	transition: transform 300ms ease-out;
+	float: left;
+	width: 25%;
+}
+.team-top1 {
+	position: relative;
+	width: 220px;
+	height: 220px;
+	margin: 0;
+	display: block;
+	overflow: hidden;
+	background: #E2E2E2;
+	border: 2px solid #13d0ab;
+}
+.team-top1 img {
+	width: 220px;
+	height: 220px;
+	-webkit-transform: skew(0deg, 0deg) rotate(-45deg);
+	-moz-transform: skew(-20deg, -20deg) rotate(-45deg);
+	-ms-transform: skew(-20deg, -20deg) rotate(-45deg);
+	-o-transform: skew(-20deg, -20deg) rotate(-45deg);
+	transform: skew(0deg, 0deg) rotate(-45deg);
+	opacity: 1;
+	-webkit-transition: opacity 300ms ease-in-out;
+	-moz-transition: opacity 300ms ease-in-out;
+	transition: opacity 300ms ease-in-out;
+}
+.team-top1 img:hover {
+	opacity: 1;
+}
+.team {
+	padding: 6em 0 8em;
+}
+.zoom-icon {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-ms-filter:  "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+	display: block;
+	left: 0;
+	top: -152px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.32);
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+.team-top1 .zoom-icon {
+	top: -100px;
+	width: 100%;
+}
+.team-top1 .swipebox:hover .zoom-icon {
+	top: 0;
+	opacity: 1;
+	filter: alpha(opacity=99);
+	-ms-filter:  "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+}
+.zoom-icon1 {
+	-webkit-transform: rotate(-45deg) translate3d(0, 0, 0);
+	-moz-transform: rotate(-45deg) translate3d(0, 0, 0);
+	-ms-transform: rotate(-45deg) translate3d(0, 0, 0);
+	-o-transform: rotate(-45deg) translate3d(0, 0, 0);
+	transform: rotate(-45deg) translate3d(0, 0, 0);
+	text-align: center;
+	margin: 4em 0 0 3em;
+}
+.zoom-icon1 {
+	-webkit-transform: rotate(-45deg) translate3d(0, 0, 0);
+	-moz-transform: rotate(-45deg) translate3d(0, 0, 0);
+	-ms-transform: rotate(-45deg) translate3d(0, 0, 0);
+	-o-transform: rotate(-45deg) translate3d(0, 0, 0);
+	transform: rotate(-45deg) translate3d(0, 0, 0);
+	text-align: center;
+	margin: 4em 0 0 1em;
+}
+.zoom-icon1 h5 {
+	font-size: 2em;
+	color: #fff;
+	margin-bottom: 0.5em;
+}
+
+.social-ic li {
+	display: inline-block;
+}
+.social-ic li a {
+	width: 35px;
+	height: 35px;
+	display: block;
+	background: #13d0ab;
+	margin: 0 0.5em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.social-ic li a:hover {
+	background: #000;
+}
+.social-ic li a i {
+	width: 35px;
+	height: 35px;
+	display: block;
+	background: url(../images/img-spr.png)no-repeat -2px -90px;
+}
+.social-ic li a i.ic {
+	background: url(../images/img-spr.png)no-repeat -63px -90px;
+}
+.social-ic li a i.ic1 {
+	background: url(../images/img-spr.png)no-repeat -123px -90px;
+}
+/*--//team--*/

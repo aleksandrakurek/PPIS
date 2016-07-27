@@ -1,0 +1,85 @@
+body,
+html {
+	background: #fff;
+	font-size: 100%;
+	font-family: 'Muli', sans-serif;
+}
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+p {
+	margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+.info-text h5 {
+	color: #fff;
+	font-size: 1.8em;
+	border-bottom: 4px double #fff;
+	padding-bottom: 0.5em;
+	margin-bottom: 0.5em;
+}
+.info-text p {
+	color: #fff;
+	font-size: 0.9em;
+	line-height: 2em;
+}
+
+
+/*--typo--*/
+.ser-top-c {
+	margin-bottom: 6em;
+}
+.page {
+	padding: 5em 0;
+}
+.page-header h3 {
+	font-size: 2.5em;
+	color: #13d0ab;
+	font-weight: bold;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	border-top: none;
+}
+.grid1 {
+	margin: 1.5em 0 0;
+}
+ul.nav.nav-pills {
+	margin: 1.5em 0 0;
+}
+.grid2 {
+	margin: 1em 0 0;
+}
+.form-horizontal .control-label {
+	text-align: left;
+}
+/*--//typo--*/

@@ -1,0 +1,109 @@
+.content-about {
+	padding: 6em 0;
+}
+
+/*--test--*/
+.test-top-g {
+	text-align: center;
+	margin-bottom: 4em;
+}
+.test-top-g h3 {
+	text-align: center;
+	margin-bottom: 0.4em;
+	font-size: 3em;
+	font-weight: bold;
+	color: #fff;
+}
+.test {
+	padding: 6em 0;
+	background: url("../images/tt.jpg") no-repeat center;
+	width: 100%;
+	min-height: 402px;
+	display: block;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+}
+.test-top2 {
+	background: #fff;
+	padding: 1.5em;
+}
+.test-top3 {
+	background: #13d0ab;
+	padding: 1.5em;
+}
+.test-top2 p {
+	float: right;
+	color: #999;
+	font-size: 0.9em;
+	line-height: 2em;
+	width: 86%;
+}
+.test-top2 img {
+	float: left;
+}
+.test-top3 img {
+	float: left;
+	border-radius: 100px;
+	width: 20%;
+	border: 2px solid #fff;
+}
+.test-top3 h6 {
+	float: right;
+	color: #000;
+	font-size: 1em;
+	line-height: 2em;
+	width: 76%;
+	margin-top: 1em;
+	margin-left: 4%;
+	font-style: italic;
+}
+/*--test--*/
+
+.col-left {
+	float: left;
+}
+.col-left span {
+	color: #13d0ab;
+	font-size: 5em;
+	display: block;
+	font-weight: 600;
+	transform: rotate(-90deg);
+}
+.col-right {
+	float: right;
+	width: 72%;
+}
+.col-right h6 {
+	margin: 0;
+	font-size: 1.3em;
+	color: #000;
+}
+.col-right p {
+	margin: 1.2em 0 0;
+	font-size: 0.9em;
+	line-height: 1.9em;
+	color: #999;
+}
+.wel h6 {
+	font-size: 0.9em;
+	color: #999;
+	font-style: italic;
+}
+.wel h2 {
+	font-size: 3.2em;
+	color: #000;
+	font-weight: 900;
+	margin: 0.1em 0;
+}
+.wel p {
+	font-size: 0.9em;
+	line-height: 1.9em;
+	color: #999;
+}
+.us-col {
+	margin-bottom: 2em;
+}
+/*--//about--*/
