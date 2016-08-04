@@ -19,7 +19,8 @@
 	width: 30px;
 	height: 30px;
 	display: block;
-	border: 1px solid #13d0ab;
+	border: 1px solid $accent_color;
+	// #13d0ab;
 	-webkit-transform: rotate(45deg) translate3d(0, 0, 0);
 	-moz-transform: rotate(45deg) translate3d(0, 0, 0);
 	-ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -96,7 +97,8 @@
 	outline: none;
 	padding: 10px 0;
 	border: none;
-	background: #13d0ab;
+	background: $accent_color;
+	// #13d0ab;
 	font-size: 1em;
 	color: #fff;
 	width: 100%;
@@ -115,3 +117,43 @@
 	min-height: 500px;
 }
 /*-- //contact --*/
+
+
+/*-- contact --*/
+.mail_us{
+	margin-bottom:70px;
+}
+.navbar-default .navbar-nav > li > a.active {
+    color: #F2593A !important;
+}
+.mail_left img{
+	width:100%;
+}
+.mail_right input[type="text"], .mail_right input[type="email"], .mail_right textarea {
+    background: none;
+    width: 100%;
+    color: #A9A9A9;
+    padding: 12px 10px;
+    border: none;
+    margin-bottom: 32px;
+	outline:none;
+    border-bottom: 2px solid $accent_color;
+		//  #C19A04;
+}
+.mail_right textarea {
+	height:200px;
+	resize:none;
+}
+.mail_right input[type="submit"] {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: $accent_color;
+		// #C19A04;
+    font-size: 16px;
+    padding: 9px 38px;
+}
+.mail_right input[type="submit"]:hover{
+    background: #F2593A;
+}
+/*-- contact --*/

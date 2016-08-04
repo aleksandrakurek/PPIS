@@ -7,7 +7,8 @@
 .footer-bottom1 h4 {
 	font-size: 2.2em;
 	font-weight: bold;
-	color: #13d0ab;
+	color: $accent_color;
+	// #13d0ab;
 	margin-bottom: 0.5em;
 }
 .footer-bottom1 h4 {
@@ -26,7 +27,8 @@
 	width: 80px;
 	height: 80px;
 	display: block;
-	border: 1px solid #13d0ab;
+	border: 1px solid $accent_color;
+	//  #13d0ab;
 	-webkit-transform: rotate(45deg) translate3d(0, 0, 0);
 	-moz-transform: rotate(45deg) translate3d(0, 0, 0);
 	-ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -34,7 +36,8 @@
 	transform: rotate(45deg) translate3d(0, 0, 0);
 }
 .social li a:hover {
-	background: #13d0ab;
+	background: $accent_color;
+	// #13d0ab;
 }
 .social li a i {
 	width: 80px;
@@ -67,7 +70,8 @@ p.footer-grid {
 }
 p.footer-grid a {
 	text-decoration: none;
-	color: #13d0ab;
+	color: $accent_color;
+	// #13d0ab;
 }
 p.footer-grid a:hover {
 	color: #fff;
