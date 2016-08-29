@@ -3008,31 +3008,6 @@ h3.title span:after {
   margin-top: 11em;
 }
 
-.header {
-  background: url("../images/ba3.jpg") no-repeat center;
-  /*background:url(	http://synergiadladomu.pl/wp-content/uploads/Fotolia_1110932_Subscription_M.jpg) no-repeat center;*/
-  width: 100%;
-  height: 800px;
-  text-align: center;
-  background-size: cover;
-}
-
-.header1 {
-  height: 92px;
-}
-
-.banner-text {
-  border: 2px solid #FFF;
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
-  -moz-transform: rotate(45deg) translate3d(0, 0, 0);
-  -ms-transform: rotate(45deg) translate3d(0, 0, 0);
-  -o-transform: rotate(45deg) translate3d(0, 0, 0);
-  transform: rotate(45deg) translate3d(0, 0, 0);
-}
-
 .banner h2 {
   font-size: 4em;
   color: #fff;
@@ -3060,6 +3035,30 @@ h3.title span:after {
   margin: 5em 0;
 }
 
+.header {
+  background: url("../images/ba3.jpg") no-repeat center;
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  background-size: cover;
+}
+
+.header1 {
+  height: 92px;
+}
+
+.banner-text {
+  border: 2px solid #FFF;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+  -moz-transform: rotate(45deg) translate3d(0, 0, 0);
+  -ms-transform: rotate(45deg) translate3d(0, 0, 0);
+  -o-transform: rotate(45deg) translate3d(0, 0, 0);
+  transform: rotate(45deg) translate3d(0, 0, 0);
+}
+
 .banner-t {
   text-align: center;
   margin: 6em auto;
@@ -3075,7 +3074,7 @@ h3.title span:after {
   margin-bottom: 3px;
 }
 
-.banner-t b.lin {
+.banner-t b .lin {
   width: 80%;
   margin: 0 auto;
 }
