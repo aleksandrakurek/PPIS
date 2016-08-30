@@ -21,7 +21,6 @@
 	height: 2px;
 	display: block;
 	background: $accent_color;
-	// #13d0ab;
 	margin-bottom: 3px;
 }
 .ser-t b.line {
@@ -32,7 +31,7 @@
 	width: 40px;
 	height: 40px;
 	display: block;
-	background: #fff;
+	background: $font_color_1;
 	position: absolute;
 	top: -7px;
 	left: 42%;
@@ -42,7 +41,6 @@
 	height: 20px;
 	display: block;
 	border: 2px solid $accent_color;
-	// #13d0ab;
 	-webkit-transform: rotate(45deg) translate3d(0, 0, 0);
 	-moz-transform: rotate(45deg) translate3d(0, 0, 0);
 	-ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -65,7 +63,6 @@
 }
 .ser-grid:hover {
 	background: $accent_color;
-	// #13d0ab;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-o-transition: 0.5s all;
@@ -78,7 +75,6 @@
 	display: block;
 	opacity: 1;
 	border: 2px solid $accent_color;
-	// #13d0ab;
 	position: relative;
 }
 .ser-grid1 {
@@ -97,22 +93,22 @@
 }
 .ser-grid1 i {
 	font-size: 2em;
-	color: #000;
+	color: $font_color_2;
 }
 .ser-grid1 h3 {
 	font-size: 1.8em;
-	color: #000;
+	color: $font_color_2;
 	margin: 0.4em 0;
 }
 .ser-grid1 p {
 	font-size: 0.9em;
-	color: #999;
+	color: $item_color;
 	line-height: 1.8em;
 	margin: 0 0 1em;
 	/*-- agileits --*/
 }
 .ser-grid:hover .ser-grid1 p {
-	color: #fff;
+	color: $font_color_1;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-o-transition: 0.5s all;
@@ -140,11 +136,11 @@
     margin: 0px 0px;
     padding: 21px 20px;
     text-decoration: none;
-    color: #A9A8A8;
+    color: $table_text_color;
     cursor: pointer;
     font-size: 17px;
     text-transform: uppercase;
-    border-right:2px solid #6F6F6F;
+    border-right:2px solid $table_border_color;
     display: block;
     list-style: none;
     outline: none;
@@ -159,9 +155,7 @@
 }
 .resp-tab-active, .resp-tab-item:hover {
     color: $accent_color;
-		// #C19A04;
 	border-right: 2px solid $accent_color;
-	// #C19A04;
 }
 .resp-tabs-container {
 	padding: 0px;
@@ -180,7 +174,7 @@ h2.resp-accordion {
    display: block;
 }
 .services{
-	background:#252525;
+	background:$background_color;
 	padding:90px 0;
 }
 .sap_tabs{
@@ -205,7 +199,7 @@ li.resp-tab-item.bath6{
     background: url(../images/clothes.png) no-repeat 0px 8px;
 }
 .services h3{
-    color: #fff;
+    color: $font_color_1;
 }
 .recharge-right{
 	padding:0;
@@ -213,11 +207,10 @@ li.resp-tab-item.bath6{
 .product-right h4{
     font-size: 24px;
     color: $accent_color;
-		// #C19A04;
 }
 .product-right p{
 	font-size:14px;
-	color:#A9A8A8;
+	color:$table_text_color;
 	line-height:2.2em;
     margin-top: 26px;
 }
