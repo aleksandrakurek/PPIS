@@ -19,9 +19,8 @@
 	margin: 0;
 	display: block;
 	overflow: hidden;
-	background: #E2E2E2;
+	background: $team_background_color;
 	border: 2px solid $accent_color;
-	// #13d0ab;
 }
 .team-top1 img {
 	width: 220px;
@@ -88,7 +87,7 @@
 }
 .zoom-icon1 h5 {
 	font-size: 2em;
-	color: #fff;
+	color: $font_color_1;
 	margin-bottom: 0.5em;
 }
 
@@ -100,7 +99,6 @@
 	height: 35px;
 	display: block;
 	background: $accent_color;
-	// #13d0ab;
 	margin: 0 0.5em;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -109,7 +107,7 @@
 	-ms-transition: 0.5s all;
 }
 .social-ic li a:hover {
-	background: #000;
+	background: $font_color_2;
 }
 .social-ic li a i {
 	width: 35px;
@@ -181,7 +179,7 @@
     -ms-transition: all 0.3s linear 0s;
     -o-transition: all 0.3s linear 0s;
     width: 100%;
-    border: 1px solid #B7B7B7;
+    border: 1px solid $image_border_color;
 }
 .team_info {
     position: absolute;
@@ -300,15 +298,15 @@
 .team_gd1 h4{
 	text-align:center;
 	font-size:20px;
-	color:#F2593A;
+	color:$team_text_color;
 	margin:25px 0 15px;
 }
 .team_gd1 p {
     text-align: center;
     font-size: 14px;
-    color: #fff;
+    color: $font_color_1;
 }
 .team h3 {
-    color: #fff;
+    color: $font_color_1;
 }
 /*-- //team --*/
