@@ -38,7 +38,7 @@
 }
 .rslides_tabs .rslides_here a {
   background: rgba(255,255,255,.1);
-  color: #fff;
+  color: $font_color_1;
   font-weight: bold;
 }
 .events {
@@ -75,7 +75,7 @@
 	z-index: 2;
 	font-size: 20px;
 	text-shadow: none;
-	color: #fff;
+	color: $font_color_1;
 	left: 0;
 	right: 0;
 	padding: 10px 20px;
@@ -117,13 +117,13 @@ a.callbacks_nav.callbacks1_nav.prev {
 #slider3-pager span,#slider4-pager span{
 	width:100px;
 	height:15px;
-	background:#fff;
+	background:$background_color_light;
 	display:inline-block;
 	border-radius:30em;
 	opacity:0.6;
 }
 #slider3-pager .rslides_here a ,#slider4-pager .rslides_here a {
-  background: #FFF;
+  background: $background_color_light;
   border-radius:30em;
   opacity:1;
 }

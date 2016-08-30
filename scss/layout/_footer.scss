@@ -9,7 +9,7 @@
 }
 
 .footer {
-	background: #232323;
+	background: $background_color_dark;
 	padding: 5em 0;
 }
 .footer-bottom h4,
@@ -17,7 +17,6 @@
 	font-size: 2.2em;
 	font-weight: bold;
 	color: $accent_color;
-	// #13d0ab;
 	margin-bottom: 0.5em;
 }
 .footer-bottom1 h4 {
@@ -25,7 +24,7 @@
 }
 .footer-bottom p {
 	font-size: 1.4em;
-	color: #fff;
+	color: $font_color_1;
 	line-height: 1.5em;
 	width: 80%;
 }
@@ -37,7 +36,6 @@
 	height: 80px;
 	display: block;
 	border: 1px solid $accent_color;
-	//  #13d0ab;
 	-webkit-transform: rotate(45deg) translate3d(0, 0, 0);
 	-moz-transform: rotate(45deg) translate3d(0, 0, 0);
 	-ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -46,7 +44,6 @@
 }
 .social li a:hover {
 	background: $accent_color;
-	// #13d0ab;
 }
 .social li a i {
 	width: 80px;
@@ -69,20 +66,19 @@
 	background: url(../images/img-spr.png)no-repeat -251px 13px;
 }
 .copy {
-	background: #232323;
+	background: $background_color_dark;
 	padding: 1.5em 0;
 }
 p.footer-grid {
 	font-size: 1em;
-	color: #fff;
+	color: $font_color_1;
 	text-align: center;
 }
 p.footer-grid a {
 	text-decoration: none;
 	color: $accent_color;
-	// #13d0ab;
 }
 p.footer-grid a:hover {
-	color: #fff;
+	color: $font_color_1;
 }
 /*--//footer--*/

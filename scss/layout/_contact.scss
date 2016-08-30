@@ -7,7 +7,7 @@
 }
 .contact h2 {
 	font-size: 3em;
-	color: #000;
+	color: $font_color_2;
 	margin-bottom: 0.5em;
 	font-weight: bold;
 	text-align: center;
@@ -20,7 +20,6 @@
 	height: 30px;
 	display: block;
 	border: 1px solid $accent_color;
-	// #13d0ab;
 	-webkit-transform: rotate(45deg) translate3d(0, 0, 0);
 	-moz-transform: rotate(45deg) translate3d(0, 0, 0);
 	-ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -32,7 +31,7 @@
 	width: 30px;
 	height: 30px;
 	font-size: 0.9em;
-	color: #000;
+	color: $font_color_2;
 	-webkit-transform: rotate(-45deg) translate3d(0, 0, 0);
 	-moz-transform: rotate(-45deg) translate3d(0, 0, 0);
 	-ms-transform: rotate(-45deg) translate3d(0, 0, 0);
@@ -42,21 +41,21 @@
 }
 .contact-grid1 h4 {
 	font-size: 1.5em;
-	color: #000;
+	color: $font_color_2;
 	margin: 1em 0 0.5em;
 }
 .contact-grid1 p {
 	font-size: 1em;
-	color: #999;
+	color: $item_color;
 	line-height: 1.5em;
 	margin: 0;
 }
 .contact-grid1 p a {
-	color: #999;
+	color: $item_color;
 	text-decoration: none;
 }
 .contact-grid1 p a:hover {
-	color: #000;
+	color: $font_color_2;
 }
 .contact-grid1 p span {
 	display: block;
@@ -67,7 +66,7 @@
 .contact-form1 h4,
 .contact-me h4 {
 	font-size: 1em;
-	color: #797979;
+	color: $table_border_color;
 	margin: 0 0 0.5em;
 }
 .contact-form1 {
@@ -81,10 +80,10 @@
 .contact-me textarea {
 	outline: none;
 	padding: 10px;
-	border: 1px solid #DFDFDF;
-	background: #EAEAEA;
+	border: 1px solid $item_color;
+	background: $background_color_2;
 	font-size: 14px;
-	color: #999;
+	color: $item_color;
 	width: 100%;
 }
 .contact-me textarea {
@@ -98,14 +97,13 @@
 	padding: 10px 0;
 	border: none;
 	background: $accent_color;
-	// #13d0ab;
 	font-size: 1em;
-	color: #fff;
+	color: $font_color_1;
 	width: 100%;
 	margin: 1.5em 0 0;
 }
 .contact-grids1 input[type="submit"]:hover {
-	background: #000;
+	background: $font_color_2;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-o-transition: 0.5s all;
@@ -124,7 +122,7 @@
 	margin-bottom:70px;
 }
 .navbar-default .navbar-nav > li > a.active {
-    color: #F2593A !important;
+    color: $team_text_color !important;
 }
 .mail_left img{
 	width:100%;
@@ -132,13 +130,12 @@
 .mail_right input[type="text"], .mail_right input[type="email"], .mail_right textarea {
     background: none;
     width: 100%;
-    color: #A9A9A9;
+    color: $table_text_color;
     padding: 12px 10px;
     border: none;
     margin-bottom: 32px;
 	outline:none;
     border-bottom: 2px solid $accent_color;
-		//  #C19A04;
 }
 .mail_right textarea {
 	height:200px;
@@ -147,13 +144,12 @@
 .mail_right input[type="submit"] {
     border: none;
     outline: none;
-    color: #fff;
+    color: $font_color_1;
     background: $accent_color;
-		// #C19A04;
     font-size: 16px;
     padding: 9px 38px;
 }
 .mail_right input[type="submit"]:hover{
-    background: #F2593A;
+    background: $background_color_accent;
 }
 /*-- contact --*/
