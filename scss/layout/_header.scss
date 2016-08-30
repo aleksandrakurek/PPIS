@@ -9,7 +9,7 @@
 }
 .head {
     padding: 1em 0;
-    background: rgba(255, 255, 255, 0.34);
+    background: $header_menu_background;
 }
 
 .navbar-top {
@@ -27,7 +27,7 @@
     margin-top: 11em;
     h2 {
         font-size: 4em;
-        color:$font_color_1 ;
+        color:$header_font_color ;
         -webkit-transform: rotate(-45deg) translate3d(0, 0, 0);
         -moz-transform: rotate(-45deg) translate3d(0, 0, 0);
         -ms-transform: rotate(-45deg) translate3d(0, 0, 0);
@@ -40,7 +40,7 @@
     }
     p {
         font-size: 0.9em;
-        color: $font_color_1;
+        color: $header_font_color;
         line-height: 2em;
         width: 50%;
         margin: 0 auto;
@@ -55,7 +55,7 @@
     height: 92px;
 }
 .banner-text {
-    border: 2px solid $font_color_1;
+    border: 2px solid $header_font_color;
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -74,7 +74,7 @@
         width: 100%;
         height: 2px;
         display: block;
-        background: $accent_color;
+        background: $header_font_color_accent;
         margin-bottom: 3px;
         .lin {
             width: 80%;
@@ -93,7 +93,7 @@
             width: 20px;
             height: 20px;
             display: block;
-            border: 2px solid $accent_color;
+            border: 2px solid $header_font_color_accent;
             -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
             -moz-transform: rotate(45deg) translate3d(0, 0, 0);
             -ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -109,12 +109,12 @@
         font-family: 'Montserrat', sans-serif;
         a {
             text-decoration: none;
-            color: $font_color_1;
+            color: $header_font_color;
             span {
                 width: 40px;
                 height: 40px;
                 display: inline-block;
-                border: 2px solid $font_color_1;
+                border: 2px solid $header_font_color;
                 -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
                 -moz-transform: rotate(45deg) translate3d(0, 0, 0);
                 -ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -162,7 +162,7 @@
         li {
             display: inline-block;
             font-size: 14px;
-            color: $font_color_1;
+            color: $header_font_color;
             margin: 0 1em;
         }
     }
@@ -182,7 +182,7 @@
       overflow: hidden;
       padding: 0;
       max-height: 0;
-      color: $accent_color;
+      color: $header_font_color_accent;
       content: attr(data-hover);
       -webkit-transition: max-height 0.5s;
       -moz-transition: max-height 0.5s;
@@ -190,16 +190,16 @@
   }
   a:hover::before {
       max-height: 110%;
-        color: $accent_color;
+        color: $header_font_color_accent;
 
   }
 }
 .header-left ul li a {
     text-decoration: none;
-    color: $font_color_1;
+    color: $header_font_color;
 }
 .header-left ul li a:hover {
-    color: $accent_color;
+    color: $header_font_color_accent;
 }
 .header-left ul li i {
     left: -.5em;
@@ -216,7 +216,7 @@ div#bs-example-navbar-collapse-1 {
 }
 ul.nav.navbar-nav li a {
     font-size: 1.1em;
-    color: $background_color_dark;
+    color: $header_font_color;
     margin: 0 15px;
     padding: 0;
 }
@@ -227,15 +227,92 @@ ul.nav.navbar-nav li a {
 }
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-    color: $font_color_1;
+    color: $header_font_color;
 }
 ul.nav.navbar-nav li.active a {
-    color: $accent_color;
+    color: $header_font_color_accent;
     background: none;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-    color: $font_color_1;
+    color: $header_font_color;
     background: none;
+}
+
+
+@media(max-width:767px) {
+  #first_on_list{
+    margin-top: 50px;
+  }
+	.navbar-toggle {
+		float: right;
+		padding: 0;
+		border: none;
+	}
+	.navbar-default .navbar-collapse,
+	.navbar-default .navbar-form {
+		border: none;
+	}
+	ul.nav.navbar-nav li a {
+		margin: 7px 0;
+		display: inline-block;
+		text-align: center;
+		width: auto;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #FFF;
+	}
+	.navbar-toggle .icon-bar {
+		width: 27px;
+		height: 3px;
+	}
+	.navbar-default .navbar-toggle:focus,
+	.navbar-default .navbar-toggle:hover {
+		background-color: transparent;
+	}
+	.navbar-top {
+		width: 47%;
+		margin: 0;
+	}
+	.navbar-nav {
+		margin: 7.5px 0;
+	}
+	.navbar-nav {
+		width: 100%;
+	}
+	/*----*/
+	div#bs-example-navbar-collapse-1 {
+		// background: #000;
+    background: rgba(255, 255, 255, 0.34);
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 87%;
+		z-index: 999;
+	}
+	ul.nav.navbar-right {
+		text-align: center;
+	}
+	.navbar-right .dropdown-menu {
+		min-width: 100%;
+		position: relative;
+		text-align: center;
+	}
+	.navbar-toggle .icon-bar {
+		background: $accent_color;
+	}
+	.navbar-toggle {
+		margin: 18px 0 0;
+		background: none;
+	}
+	.navbar-nav > li > a {
+		width: 25%;
+		text-align: center;
+		margin: 5px auto;
+	}
+	div#bs-example-navbar-collapse-1 {
+		width: 95.2%;
+		margin-top: 1em;
+	}
 }

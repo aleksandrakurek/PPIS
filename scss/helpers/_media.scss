@@ -328,7 +328,8 @@
 	}
 	/*----*/
 	div#bs-example-navbar-collapse-1 {
-		background: #000;
+		// background: #000;
+		background: $table_border_color;
 		margin: 0;
 		padding: 0;
 		position: absolute;

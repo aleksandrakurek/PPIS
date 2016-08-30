@@ -491,7 +491,7 @@
   }
   /*----*/
   div#bs-example-navbar-collapse-1 {
-    background: #000;
+    background: #6F6F6F;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -3039,7 +3039,7 @@ h3.title span:after {
 
 .head {
   padding: 1em 0;
-  background: rgba(255, 255, 255, 0.34);
+  background: rgba(169, 168, 168, 0.34);
 }
 
 .navbar-top {
@@ -3261,7 +3261,7 @@ div#bs-example-navbar-collapse-1 {
 
 ul.nav.navbar-nav li a {
   font-size: 1.1em;
-  color: #232323;
+  color: #fff;
   margin: 0 15px;
   padding: 0;
 }
@@ -3287,6 +3287,81 @@ ul.nav.navbar-nav li.active a {
 .navbar-default .navbar-nav > .active > a:hover {
   color: #fff;
   background: none;
+}
+
+@media (max-width: 767px) {
+  #first_on_list {
+    margin-top: 50px;
+  }
+  .navbar-toggle {
+    float: right;
+    padding: 0;
+    border: none;
+  }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border: none;
+  }
+  ul.nav.navbar-nav li a {
+    margin: 7px 0;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+  }
+  .navbar-toggle .icon-bar {
+    width: 27px;
+    height: 3px;
+  }
+  .navbar-default .navbar-toggle:focus,
+  .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+  }
+  .navbar-top {
+    width: 47%;
+    margin: 0;
+  }
+  .navbar-nav {
+    margin: 7.5px 0;
+  }
+  .navbar-nav {
+    width: 100%;
+  }
+  /*----*/
+  div#bs-example-navbar-collapse-1 {
+    background: rgba(255, 255, 255, 0.34);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 87%;
+    z-index: 999;
+  }
+  ul.nav.navbar-right {
+    text-align: center;
+  }
+  .navbar-right .dropdown-menu {
+    min-width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  .navbar-toggle .icon-bar {
+    background: orange;
+  }
+  .navbar-toggle {
+    margin: 18px 0 0;
+    background: none;
+  }
+  .navbar-nav > li > a {
+    width: 25%;
+    text-align: center;
+    margin: 5px auto;
+  }
+  div#bs-example-navbar-collapse-1 {
+    width: 95.2%;
+    margin-top: 1em;
+  }
 }
 
 /*--services--*/
