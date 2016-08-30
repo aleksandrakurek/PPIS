@@ -1,6 +1,6 @@
 body,
 html {
-	background: #fff;
+	background: $background_color_light;
 	font-size: 100%;
 	font-family: 'Muli', sans-serif;
 }
@@ -36,7 +36,7 @@ h6 {
 
 html, body{
 	margin:0;
-	background:	#fff;
+	background:	$background_color_light;
 	font-family: 'Open Sans', sans-serif;
 }
 h4, h5, h6,
@@ -71,14 +71,14 @@ body a:hover{
 }
 
 .info-text h5 {
-	color: #fff;
+	color: $font_color_1;
 	font-size: 1.8em;
-	border-bottom: 4px double #fff;
+	border-bottom: 4px double $font_color_1;
 	padding-bottom: 0.5em;
 	margin-bottom: 0.5em;
 }
 .info-text p {
-	color: #fff;
+	color: $font_color_1;
 	font-size: 0.9em;
 	line-height: 2em;
 }
@@ -94,7 +94,6 @@ body a:hover{
 .page-header h3 {
 	font-size: 2.5em;
 	color: $accent_color;
-	// #13d0ab;
 	font-weight: bold;
 }
 .table > tbody > tr > td,
@@ -122,13 +121,13 @@ ul.nav.nav-pills {
 }
 /*--//typo--*/
 h3.title{
-    color: #000;
+    color: $font_color_2;
     font-size: 35px;
 	text-transform:uppercase;
 }
 h3.title span{
     width: 8%;
-    background: #F2593A;
+    background: $background_color_accent;
     height: 4px;
     display: block;
     margin-top: 26px;
@@ -137,7 +136,7 @@ h3.title span{
 h3.title span:after{
     content: ' ';
     position: absolute;
-    background: #F2593A;
+    background: $background_color_accent;
     height: 2px;
     display: block;
     width: 187px;
@@ -166,7 +165,7 @@ h3.title span:after{
     height: 8px;
     margin-bottom: 30px;
     overflow: hidden;
-    background-color: #ECECEC;
+    background-color: $background_color_2;
     border-radius: 2px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -177,9 +176,9 @@ h3.title span:after{
     height: 100%;
     font-size: 12px;
     line-height: 20px;
-    color: #fff;
+    color: $font_color_1;
     text-align: center;
-    background-color: #F2593A;
+    background-color: $background_color_accent;
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: width .6s ease;
@@ -191,18 +190,17 @@ h3.title span:after{
     margin-top: 18px;
 }
 .progress-gds h5 {
-    color: #fff;
+    color: $font_color_1;
     font-size: 15px;
     margin-bottom: 17px;
 }
 .creative h4 {
     font-size: 24px;
     color: $accent_color;
-		// #C19A04;
     margin-bottom: 26px;
 }
 .creative p {
-    color: #fff;
+    color: $font_color_1;
     font-size: 21px;
     line-height: 1.8em;
     font-style: italic;

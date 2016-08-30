@@ -14,7 +14,7 @@
 	margin-bottom: 0.4em;
 	font-size: 3em;
 	font-weight: bold;
-	color: #fff;
+	color: $font_color_1;
 }
 .test {
 	padding: 6em 0;
@@ -29,7 +29,7 @@
 	-ms-background-size: cover;
 }
 .test-top2 {
-	background: #fff;
+	background: $font_color_1;
 	padding: 1.5em;
 }
 .test-top3 {
@@ -38,7 +38,7 @@
 }
 .test-top2 p {
 	float: right;
-	color: #999;
+	color: $item_color;
 	font-size: 0.9em;
 	line-height: 2em;
 	width: 86%;
@@ -50,11 +50,11 @@
 	float: left;
 	border-radius: 100px;
 	width: 20%;
-	border: 2px solid #fff;
+	border: 2px solid $font_color_1;
 }
 .test-top3 h6 {
 	float: right;
-	color: #000;
+	color: $font_color_2;
 	font-size: 1em;
 	line-height: 2em;
 	width: 76%;
@@ -81,29 +81,29 @@
 .col-right h6 {
 	margin: 0;
 	font-size: 1.3em;
-	color: #000;
+	color: $font_color_2;
 }
 .col-right p {
 	margin: 1.2em 0 0;
 	font-size: 0.9em;
 	line-height: 1.9em;
-	color: #999;
+	color: $item_color;
 }
 .wel h6 {
 	font-size: 0.9em;
-	color: #999;
+	color: $item_color;
 	font-style: italic;
 }
 .wel h2 {
 	font-size: 3.2em;
-	color: #000;
+	color: $font_color_2;
 	font-weight: 900;
 	margin: 0.1em 0;
 }
 .wel p {
 	font-size: 0.9em;
 	line-height: 1.9em;
-	color: #999;
+	color: $item_color;
 }
 .us-col {
 	margin-bottom: 2em;
@@ -131,10 +131,10 @@
 .list-gds p {
     font-size: 14px;
     line-height: 2.2em;
-    color: #464646;
+    color: $item_color_2;
 }
 .list-gds h4 {
-    color: #000;
+    color: $font_color_2;
     font-size: 26px;
     margin: 25px 0 27px;
 }
@@ -160,7 +160,7 @@
 	-ms-transition:0.5s all;
 }
 .list-gds:hover.list-gds h4{
-	color:#fff;
+	color:$font_color_1;
 		transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -168,7 +168,7 @@
 	-ms-transition:0.5s all;
 }
 .list-gds:hover.list-gds p{
-	color:#fff;
+	color:$font_color_1;
 		transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
