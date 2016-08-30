@@ -24,7 +24,7 @@
     margin-top: 11em;
     h2 {
         font-size: 4em;
-        color: #fff;
+        color:$font_color_1 ;
         -webkit-transform: rotate(-45deg) translate3d(0, 0, 0);
         -moz-transform: rotate(-45deg) translate3d(0, 0, 0);
         -ms-transform: rotate(-45deg) translate3d(0, 0, 0);
@@ -37,7 +37,7 @@
     }
     p {
         font-size: 0.9em;
-        color: #fff;
+        color: $font_color_1;
         line-height: 2em;
         width: 50%;
         margin: 0 auto;
@@ -52,7 +52,7 @@
     height: 92px;
 }
 .banner-text {
-    border: 2px solid #FFF;
+    border: 2px solid $font_color_1;
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -106,12 +106,12 @@
         font-family: 'Montserrat', sans-serif;
         a {
             text-decoration: none;
-            color: #fff;
+            color: $font_color_1;
             span {
                 width: 40px;
                 height: 40px;
                 display: inline-block;
-                border: 2px solid #fff;
+                border: 2px solid $font_color_1;
                 -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
                 -moz-transform: rotate(45deg) translate3d(0, 0, 0);
                 -ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -159,7 +159,7 @@
         li {
             display: inline-block;
             font-size: 14px;
-            color: #fff;
+            color: $font_color_1;
             margin: 0 1em;
         }
     }
@@ -193,7 +193,7 @@
 }
 .header-left ul li a {
     text-decoration: none;
-    color: #fff;
+    color: $font_color_1;
 }
 .header-left ul li a:hover {
     color: $accent_color;
@@ -213,7 +213,7 @@ div#bs-example-navbar-collapse-1 {
 }
 ul.nav.navbar-nav li a {
     font-size: 1.1em;
-    color: #FFFFFF;
+    color: $font_color_1;
     margin: 0 15px;
     padding: 0;
 }
@@ -224,7 +224,7 @@ ul.nav.navbar-nav li a {
 }
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-    color: #fff;
+    color: $font_color_1;
 }
 ul.nav.navbar-nav li.active a {
     color: $accent_color;
@@ -233,6 +233,6 @@ ul.nav.navbar-nav li.active a {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-    color: #fff;
+    color: $font_color_1;
     background: none;
 }

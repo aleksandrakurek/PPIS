@@ -2650,6 +2650,11 @@ a.callbacks_nav.callbacks2_nav.next {
 
 /*-- contact --*/
 /*--footer--*/
+.company_logo {
+  width: 600px;
+  height: 270px;
+}
+
 .footer {
   background: #232323;
   padding: 5em 0;
@@ -3083,7 +3088,7 @@ h3.title span:after {
 }
 
 .banner-text {
-  border: 2px solid #FFF;
+  border: 2px solid #fff;
   display: inline-block;
   width: 100px;
   height: 100px;
@@ -3256,7 +3261,7 @@ div#bs-example-navbar-collapse-1 {
 
 ul.nav.navbar-nav li a {
   font-size: 1.1em;
-  color: #FFFFFF;
+  color: #fff;
   margin: 0 15px;
   padding: 0;
 }
