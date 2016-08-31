@@ -3534,19 +3534,19 @@ h2.resp-accordion {
 }
 
 li.resp-tab-item.bath1 {
-  background: url("../images/bath.png") no-repeat 0 8px;
+  background: url("../images/blueprint.png") no-repeat 0 20px;
 }
 
 li.resp-tab-item.bath2 {
-  background: url("../images/sofa.png") no-repeat 0 8px;
+  background: url("../images/compass.png") no-repeat 0 20px;
 }
 
 li.resp-tab-item.bath3 {
-  background: url("../images/vintage.png") no-repeat 0 8px;
+  background: url("../images/eco-house.png") no-repeat 0 20px;
 }
 
 li.resp-tab-item.bath4 {
-  background: url("../images/door.png") no-repeat 0 8px;
+  background: url("../images/crane.png") no-repeat 0 20px;
 }
 
 .services h3 {
