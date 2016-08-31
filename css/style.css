@@ -1,6 +1,7 @@
 /* HEADER */
 /* ABOUT US */
 /* PROJECTS */
+/* TEAM */
 /*--col-grid--*/
 .col-grid-left {
   background-color: #eee;
@@ -3571,6 +3572,11 @@ li.resp-tab-item.bath4 {
 
 /*-- //products --*/
 /*--team--*/
+.degree {
+  color: #464646;
+  font-size: 14px;
+}
+
 .team-top {
   -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
   -moz-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -3592,7 +3598,7 @@ li.resp-tab-item.bath4 {
   margin: 0;
   display: block;
   overflow: hidden;
-  background: #E2E2E2;
+  background: #464646;
   border: 2px solid orange;
 }
 
@@ -3669,7 +3675,7 @@ li.resp-tab-item.bath4 {
 
 .zoom-icon1 h5 {
   font-size: 2em;
-  color: #fff;
+  color: #464646;
   margin-bottom: 0.5em;
 }
 
@@ -3717,7 +3723,7 @@ li.resp-tab-item.bath4 {
 
 .team {
   padding: 90px 0;
-  background: url(../images/pic4.jpg) no-repeat center;
+  background: url(../images/pic403.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -3768,7 +3774,6 @@ li.resp-tab-item.bath4 {
   -ms-transition: all 0.3s linear 0s;
   -o-transition: all 0.3s linear 0s;
   width: 100%;
-  border: 1px solid #B7B7B7;
 }
 
 .team_info {
@@ -3905,11 +3910,11 @@ li.resp-tab-item.bath4 {
 .team_gd1 p {
   text-align: center;
   font-size: 14px;
-  color: #fff;
+  color: #464646;
 }
 
 .team h3 {
-  color: #fff;
+  color: #464646;
 }
 
 /*-- //team --*/
