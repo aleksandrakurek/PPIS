@@ -2432,6 +2432,15 @@ a.callbacks_nav.callbacks2_nav.next {
   padding: 6em 0;
 }
 
+.contact a:hover {
+  color: black;
+}
+
+.faktura {
+  color: white;
+  font-size: 20px;
+}
+
 .contact form {
   margin-top: 6em;
 }
