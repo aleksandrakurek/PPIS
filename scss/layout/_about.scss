@@ -1,9 +1,29 @@
 .content-about {
 	padding: 6em 0;
 }
-
-
-
+/*--icons--*/
+.heat{
+	background: url("../images/heater.png") no-repeat center;
+}
+.faucet{
+	background: url("../images/faucet.png") no-repeat center;
+}
+.crane
+{
+	background: url("../images/crane.png") no-repeat center;
+}
+.bridge
+{
+	background: url("../images/bridge.png") no-repeat center;
+}
+.pipe-valve
+{
+	background: url("../images/pipe-valve.png") no-repeat center;
+}
+.air-conditioner
+{
+	background: url("../images/air-conditioner.png") no-repeat center;
+}
 /*--test--*/
 .test-top-g {
 	text-align: center;
@@ -29,16 +49,16 @@
 	-ms-background-size: cover;
 }
 .test-top2 {
-	background: $font_color_1;
+	background:$background_about;
 	padding: 1.5em;
 }
 .test-top3 {
-	background: $accent_color;
+	background: $accent_color_about;
 	padding: 1.5em;
 }
 .test-top2 p {
 	float: right;
-	color: $item_color;
+	color: $item_color_about;
 	font-size: 0.9em;
 	line-height: 2em;
 	width: 86%;
@@ -50,11 +70,11 @@
 	float: left;
 	border-radius: 100px;
 	width: 20%;
-	border: 2px solid $font_color_1;
+	border: 2px solid $font_color_1_about;
 }
 .test-top3 h6 {
 	float: right;
-	color: $font_color_2;
+	color: $font_color_2_about;
 	font-size: 1em;
 	line-height: 2em;
 	width: 76%;
@@ -68,7 +88,7 @@
 	float: left;
 }
 .col-left span {
-	color:$accent_color;
+	color:$accent_color_about;
 	font-size: 5em;
 	display: block;
 	font-weight: 600;
@@ -81,29 +101,29 @@
 .col-right h6 {
 	margin: 0;
 	font-size: 1.3em;
-	color: $font_color_2;
+	color: $font_color_2_about;
 }
 .col-right p {
 	margin: 1.2em 0 0;
 	font-size: 0.9em;
 	line-height: 1.9em;
-	color: $item_color;
+	color: $item_color_about;
 }
 .wel h6 {
 	font-size: 0.9em;
-	color: $item_color;
+	color: $item_color_about;
 	font-style: italic;
 }
 .wel h2 {
 	font-size: 3.2em;
-	color: $font_color_2;
+	color: $font_color_2_about;
 	font-weight: 900;
 	margin: 0.1em 0;
 }
 .wel p {
 	font-size: 0.9em;
 	line-height: 1.9em;
-	color: $item_color;
+	color: $item_color_about;
 }
 .us-col {
 	margin-bottom: 2em;
@@ -117,24 +137,27 @@
 .services-gds{
 	margin-top:55px;
 }
-.list-gds span{
-	color:$accent_color;
-	font-size:30px;
-}
+.list-gds {span{
+	color:$accent_color_about;
+	font-size:0px;
+	width:32px;
+	height:32px;
+	// border:1px solid red;
+}}
 .list-gds:nth-child(2),.list-gds:nth-child(5){
-	border-left:1px solid $accent_color;
-	border-right:1px solid $accent_color;
+	border-left:1px solid $accent_color_about;
+	border-right:1px solid $accent_color_about;
 }
 .list-gds:nth-child(6),.list-gds:nth-child(4),.list-gds:nth-child(5){
-	border-top:1px solid $accent_color;
+	border-top:1px solid $accent_color_about;
 }
 .list-gds p {
     font-size: 14px;
     line-height: 2.2em;
-    color: $item_color_2;
+    color: $item_color_2_about;
 }
 .list-gds h4 {
-    color: $font_color_2;
+    color: $font_color_2_about;
     font-size: 26px;
     margin: 25px 0 27px;
 }
@@ -161,7 +184,7 @@
 	-ms-transition:0.5s all;
 }
 .list-gds:hover.list-gds h4{
-	color:$font_color_1;
+	color:$font_color_1_about;
 		transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -169,7 +192,7 @@
 	-ms-transition:0.5s all;
 }
 .list-gds:hover.list-gds p{
-	color:$font_color_1;
+	color:$font_color_1_about;
 		transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;

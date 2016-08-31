@@ -1,3 +1,5 @@
+/* HEADER */
+/* ABOUT US */
 /*--col-grid--*/
 .col-grid-left {
   background-color: #eee;
@@ -1978,6 +1980,31 @@
   padding: 6em 0;
 }
 
+/*--icons--*/
+.heat {
+  background: url("../images/heater.png") no-repeat center;
+}
+
+.faucet {
+  background: url("../images/faucet.png") no-repeat center;
+}
+
+.crane {
+  background: url("../images/crane.png") no-repeat center;
+}
+
+.bridge {
+  background: url("../images/bridge.png") no-repeat center;
+}
+
+.pipe-valve {
+  background: url("../images/pipe-valve.png") no-repeat center;
+}
+
+.air-conditioner {
+  background: url("../images/air-conditioner.png") no-repeat center;
+}
+
 /*--test--*/
 .test-top-g {
   text-align: center;
@@ -2111,7 +2138,9 @@
 
 .list-gds span {
   color: orange;
-  font-size: 30px;
+  font-size: 0px;
+  width: 32px;
+  height: 32px;
 }
 
 .list-gds:nth-child(2), .list-gds:nth-child(5) {
