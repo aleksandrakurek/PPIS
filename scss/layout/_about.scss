@@ -170,8 +170,7 @@
 	-ms-transition:0.5s all;
 }
 .list-gds:hover{
-    // background: url(../images/tt.jpg) no-repeat center;
-		background: url(../images/pic27.jpg) no-repeat center;
+	// background: url(../images/pic27.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -182,7 +181,27 @@
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
+
 }
+#radiator:hover{
+		background: url(../images/heating.jpg) no-repeat center;
+}
+#sewer:hover{
+	background: url(../images/sewer.jpg) no-repeat center;
+}
+#construction:hover{
+		background: url(../images/construction6.jpg) no-repeat center;
+}
+#environmental:hover{
+		background: url(../images/environmental2.jpg) no-repeat center;
+}
+#gas:hover{
+		background: url(../images/gas.jpg) no-repeat center;
+}
+#ac:hover{
+		background: url(../images/ac.jpg) no-repeat center;
+}
+
 .list-gds:hover.list-gds h4{
 	color:$font_color_1_about;
 		transition:0.5s all;
