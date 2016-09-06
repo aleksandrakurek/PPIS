@@ -3021,11 +3021,13 @@ h3.title span:after {
 /*-- //to-top --*/
 /*--HEADER--*/
 .header {
-  background: url("../images/main6.jpg") no-repeat center;
   width: 100%;
   height: 800px;
   text-align: center;
+  /* parralax effect */
+  background: url("../images/main6.jpg") no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .head {
@@ -3756,6 +3758,7 @@ li.resp-tab-item.bath4 {
 .team {
   padding: 90px 0;
   background: url(../images/pic403.jpg) no-repeat center;
+  background-attachment: fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
