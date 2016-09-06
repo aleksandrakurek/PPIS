@@ -16,7 +16,11 @@
 	<!-- JS files -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/app.js"></script>
-	<script type="application/x-javascript">
+ <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+
+
+
+	<!-- <script type="application/x-javascript">
 		addEventListener("load", function() {
 			setTimeout(hideURLbar, 0);
 		}, false);
@@ -24,9 +28,12 @@
 		function hideURLbar() {
 			window.scrollTo(0, 1);
 		}
-	</script>
-	<script src="js/responsiveslides.min.js"></script>
-	<script src="js/wow.min.js"></script>
+	</script> -->
+
+
+	<!-- <script src="js/responsiveslides.min.js"></script> -->
+	<!-- <script src="js/wow.min.js"></script> -->
+
 	<!-- Fonts files -->
 	<link href='//fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
 	<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -38,7 +45,7 @@
 
 	<!--HEADER-->
 
-	<div class="header">
+	<div class="header" id="header">
 		<div class="head menu-sticky ">
 			<div class="container">
 				<div class="navbar-top ">
@@ -52,7 +59,7 @@
 						</button>
 						<div class="navbar-brand logo ">
 							<h1 class="animated wow pulse" data-wow-delay=".5s">
-<img class="company_logo" src="images/logofirmamini.png" />
+							<img class="company_logo" src="images/logofirmamini.png" />
 							<!-- <a href="index.html"><span><b>P</b></span>racownia <i>Projektowa</i></a> -->
 
 						</h1>
@@ -151,16 +158,10 @@
 
 			<h3 class="title"> Projekty<span></span></h3>
 
-			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<!-- <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
 			<script type="text/javascript">
-				$(document).ready(function() {
-					$('#horizontalTab').easyResponsiveTabs({
-						type: 'default', //Types: default, vertical, accordion
-						width: 'auto', //auto or any width like 600px
-						fit: true // 100% fit in a container
-					});
-				});
-			</script>
+
+			</script> -->
 			<div class="sap_tabs">
 				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 					<div class="col-md-3 recharge-left wow bounceInDown" data-wow-duration="1s" data-wow-delay="0s">
@@ -440,27 +441,8 @@
 	</div>
 
 
-	<!-- for bootstrap working -->
-	<script src="js/bootstrap.min.js"></script>
 
-	<!-- smooth scrolling -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear'
-				};
-
-			$().UItoTop({
-				easingType: 'easeOutQuart'
-			});
-		});
-	</script>
-	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-	<!-- //smooth scrolling -->
+	<a href="#header" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 </body>
 
