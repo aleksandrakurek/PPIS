@@ -3045,6 +3045,10 @@ h3.title span:after {
   border-top: 0;
 }
 
+.sticky .company_logo {
+  visibility: hidden;
+}
+
 .navbar-top {
   float: left;
   width: 70%;

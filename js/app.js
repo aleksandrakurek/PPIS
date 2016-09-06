@@ -1,6 +1,7 @@
 /* sticky menu*/
 
 $(document).ready(function() {
+
 var stickyNavTop = $('.menu-sticky').offset().top;
 
 var stickyNav = function(){
@@ -8,16 +9,19 @@ var scrollTop = $(window).scrollTop();
 
 if (scrollTop > stickyNavTop) {
     $('.menu-sticky').addClass('sticky');
+    ;
 } else {
     $('.menu-sticky').removeClass('sticky');
 }
 };
 
 stickyNav();
-
 $(window).scroll(function() {
   stickyNav();
+
 });
+
+
 });
 
 /* sticky menu end*/
