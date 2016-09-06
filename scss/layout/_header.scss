@@ -3,6 +3,8 @@
     width: 100%;
     height: 800px;
     text-align: center;
+    // left: 0;
+    // top: 0;
     /* parralax effect */
     background: url("../images/main6.jpg") no-repeat center;
     background-size: cover;
@@ -12,6 +14,19 @@
     padding: 1em 0;
     background: $header_menu_background;
 }
+
+/*Sticky menu*/
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
+
+
 .navbar-top {
     float: left;
     width: 70%;
@@ -21,7 +36,7 @@
     height: 63px;
 }
 .banner {
-    margin-top: 11em;
+    // margin-top: 11em;
     h2 {
         font-size: 4em;
         color: $header_font_color;
