@@ -3035,6 +3035,16 @@ h3.title span:after {
   background: rgba(169, 168, 168, 0.34);
 }
 
+/*Sticky menu*/
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
 .navbar-top {
   float: left;
   width: 70%;
@@ -3043,10 +3053,6 @@ h3.title span:after {
 .company_logo {
   width: 150px;
   height: 63px;
-}
-
-.banner {
-  margin-top: 11em;
 }
 
 .banner h2 {
