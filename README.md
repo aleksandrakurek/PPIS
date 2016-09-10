@@ -14,7 +14,7 @@ You can check this here -- > https://aleksandrakurek.github.io/PPIS/
 * animated effect (animate.css and wow.js library)
 * on smartphones phone number is clickable (email address also- on all devices)
 
-In this project I'm used:
+Used in this project:
 * Sass
 * Gulp
 * RWD
