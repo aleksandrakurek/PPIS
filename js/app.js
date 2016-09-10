@@ -9,7 +9,7 @@ var scrollTop = $(window).scrollTop();
 
 if (scrollTop > stickyNavTop) {
     $('.menu-sticky').addClass('sticky');
-    ;
+
 } else {
     $('.menu-sticky').removeClass('sticky');
 }

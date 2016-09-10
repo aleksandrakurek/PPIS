@@ -251,12 +251,13 @@ ul.nav.navbar-nav li.active a {
     background: none;
 }
 @media(max-width:767px) {
+  .company_logo{
+  visibility: hidden;
+  }
     #first_on_list {
-        margin-top: 50px;
     }
     .navbar-toggle {
-        float: right;
-        padding: 0;
+        float: left;
         border: none;
     }
     .navbar-default .navbar-collapse,
