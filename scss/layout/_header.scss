@@ -250,7 +250,26 @@ ul.nav.navbar-nav li.active a {
     color: $header_font_color;
     background: none;
 }
-@media(max-width:767px) {
+@media(max-width:770px) {
+  .product-right{
+    float: none;
+    margin-left: 260px;
+    // border: 1px solid red;
+    // width: 100%;
+    // h4{
+      // width: 100%;
+      // float: left;
+      // text-align: center;
+      // margin: 0;
+      // padding: 0;
+      // line-height: 30px;
+    }
+    ul{
+    // list-style: none;}
+  }
+  .img-responsive{
+      // display: none;
+  }
   .company_logo{
   visibility: hidden;
   }
@@ -259,6 +278,7 @@ ul.nav.navbar-nav li.active a {
     .navbar-toggle {
         float: left;
         border: none;
+
     }
     .navbar-default .navbar-collapse,
     .navbar-default .navbar-form {
@@ -269,6 +289,7 @@ ul.nav.navbar-nav li.active a {
         display: inline-block;
         text-align: center;
         width: auto;
+        margin-left: 10px;
     }
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #FFF;

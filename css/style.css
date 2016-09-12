@@ -3288,7 +3288,11 @@ ul.nav.navbar-nav li.active a {
   background: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 770px) {
+  .product-right {
+    float: none;
+    margin-left: 260px;
+  }
   .company_logo {
     visibility: hidden;
   }
@@ -3305,6 +3309,7 @@ ul.nav.navbar-nav li.active a {
     display: inline-block;
     text-align: center;
     width: auto;
+    margin-left: 10px;
   }
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #FFF;
