@@ -195,7 +195,6 @@ li.resp-tab-item.bath3 {
 li.resp-tab-item.bath4 {
 	background: url("../images/crane2.png") no-repeat 0 20px;
 }
-
 .services h3 {
 	color: $font_color_1_projects;
 }
@@ -211,5 +210,12 @@ li.resp-tab-item.bath4 {
 	color: $table_text_color_projects;
 	line-height: 2.2em;
 	margin-top: 26px;
+}
+
+@media(max-width:770px) {
+	.product-right {
+		float: none;
+		margin-left: 260px;
+	}
 }
 /*-- //products --*/

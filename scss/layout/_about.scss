@@ -2,26 +2,22 @@
 	padding: 6em 0;
 }
 /*--icons--*/
-.heat{
+.heat {
 	background: url("../images/heater.png") no-repeat center;
 }
-.faucet{
+.faucet {
 	background: url("../images/faucet.png") no-repeat center;
 }
-.crane
-{
+.crane {
 	background: url("../images/crane.png") no-repeat center;
 }
-.bridge
-{
+.bridge {
 	background: url("../images/bridge.png") no-repeat center;
 }
-.pipe-valve
-{
+.pipe-valve {
 	background: url("../images/pipe-valve.png") no-repeat center;
 }
-.air-conditioner
-{
+.air-conditioner {
 	background: url("../images/air-conditioner.png") no-repeat center;
 }
 /*--test--*/
@@ -49,7 +45,7 @@
 	-ms-background-size: cover;
 }
 .test-top2 {
-	background:$background_about;
+	background: $background_about;
 	padding: 1.5em;
 }
 .test-top3 {
@@ -83,12 +79,11 @@
 	font-style: italic;
 }
 /*--test--*/
-
 .col-left {
 	float: left;
 }
 .col-left span {
-	color:$accent_color_about;
+	color: $accent_color_about;
 	font-size: 5em;
 	display: block;
 	font-weight: 600;
@@ -129,99 +124,100 @@
 	margin-bottom: 2em;
 }
 /*--//about--*/
-
 /*-- services --*/
 .services-list {
-    padding: 90px 0;
+	padding: 90px 0;
 }
-.services-gds{
-	margin-top:55px;
-}
-.list-gds {span{
-	color:$accent_color_about;
-	font-size:0px;
-	width:32px;
-	height:32px;
-	// border:1px solid red;
-}}
-.list-gds:nth-child(2),.list-gds:nth-child(5){
-	border-left:1px solid $accent_color_about;
-	border-right:1px solid $accent_color_about;
-}
-.list-gds:nth-child(6),.list-gds:nth-child(4),.list-gds:nth-child(5){
-	border-top:1px solid $accent_color_about;
-}
-.list-gds p {
-    font-size: 14px;
-    line-height: 2.2em;
-    color: $item_color_2_about;
-}
-.list-gds h4 {
-    color: $font_color_2_about;
-    font-size: 26px;
-    margin: 25px 0 27px;
+.services-gds {
+	margin-top: 55px;
 }
 .list-gds {
-    padding: 60px 16px;
-		transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
+	span {
+		color: $accent_color_about;
+		font-size: 0;
+		width: 32px;
+		height: 32px;
+		// border:1px solid red;
+	}
 }
-.list-gds:hover{
+.list-gds:nth-child(2),
+.list-gds:nth-child(5) {
+	border-left: 1px solid $accent_color_about;
+	border-right: 1px solid $accent_color_about;
+}
+.list-gds:nth-child(4),
+.list-gds:nth-child(5),
+.list-gds:nth-child(6) {
+	border-top: 1px solid $accent_color_about;
+}
+.list-gds p {
+	font-size: 14px;
+	line-height: 2.2em;
+	color: $item_color_2_about;
+}
+.list-gds h4 {
+	color: $font_color_2_about;
+	font-size: 26px;
+	margin: 25px 0 27px;
+}
+.list-gds {
+	padding: 60px 16px;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.list-gds:hover {
 	// background: url(../images/pic27.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    -moz-background-size: cover;
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
-
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	-moz-background-size: cover;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
 }
-#radiator:hover{
-		background: url(../images/heating.jpg) no-repeat center;
+#radiator:hover {
+	background: url("../images/heating.jpg") no-repeat center;
 }
-#sewer:hover{
-	background: url(../images/sewer.jpg) no-repeat center;
+#sewer:hover {
+	background: url("../images/sewer.jpg") no-repeat center;
 }
-#construction:hover{
-		background: url(../images/construction6.jpg) no-repeat center;
+#construction:hover {
+	background: url("../images/construction6.jpg") no-repeat center;
 }
-#environmental:hover{
-		background: url(../images/environmental2.jpg) no-repeat center;
+#environmental:hover {
+	background: url("../images/environmental2.jpg") no-repeat center;
 }
-#gas:hover{
-		background: url(../images/gas.jpg) no-repeat center;
+#gas:hover {
+	background: url("../images/gas.jpg") no-repeat center;
 }
-#ac:hover{
-		background: url(../images/ac.jpg) no-repeat center;
+#ac:hover {
+	background: url("../images/ac.jpg") no-repeat center;
 }
-
-.list-gds:hover.list-gds h4{
-	color:$font_color_1_about;
-		transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
+.list-gds:hover.list-gds h4 {
+	color: $font_color_1_about;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
 }
-.list-gds:hover.list-gds p{
-	color:$font_color_1_about;
-		transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
+.list-gds:hover.list-gds p {
+	color: $font_color_1_about;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
 }
 /*-- //services --*/
-
-title{
-	img{
+title {
+	img {
 		height: 100px;
 		width: 300px;
 	}

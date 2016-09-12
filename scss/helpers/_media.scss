@@ -123,7 +123,28 @@
 	h1.grid2 {
 		font-size: 2.3em;
 	}
+	.product-right {
+		padding-left: 25px;
+	}
+	li.resp-tab-item.bath1 {
+		background: url("../images/blueprint.png") no-repeat 0 20px;
+		 background-size: 12% !important;
+	}
+	li.resp-tab-item.bath2 {
+		background: url("../images/compass.png") no-repeat 0 20px;
+		background-size: 12% !important;
+	}
+	li.resp-tab-item.bath3 {
+		background: url("../images/eco-house.png") no-repeat 0 20px;
+		background-size: 12% !important;
+	}
+	li.resp-tab-item.bath4 {
+		background: url("../images/crane2.png") no-repeat 0 20px;
+		background-size: 12% !important;
+
 }
+}
+
 @media(max-width:991px) {
 	ul.nav.navbar-nav li a {
 		margin: 0 5px;
@@ -290,7 +311,12 @@
 	}
 }
 
-@media(max-width:760px) {
+@media(max-width:768px) {
+
+	.product-right {
+		float: none;
+		margin-left: 260px;
+	}
 	.banner p {
 		width: 75%;
 	}
@@ -805,16 +831,16 @@
 		font-size: 13px;
 	}
 	li.resp-tab-item.bath1 {
-		background: url(../images/bath.png) no-repeat 0px 16px;
+		background: url(../images/blueprint.png) no-repeat 0px 16px;
 	}
 	li.resp-tab-item.bath2 {
-		background: url(../images/sofa.png) no-repeat 0px 17px;
+		background: url(../images/compass.png) no-repeat 0px 17px;
 	}
 	li.resp-tab-item.bath3 {
-		background: url(../images/vintage.png) no-repeat 0px 16px;
+		background: url(../images/eco-house.png) no-repeat 0px 16px;
 	}
 	li.resp-tab-item.bath4 {
-		background: url(../images/door.png) no-repeat 0px 18px;
+		background: url(../images/crane2.png) no-repeat 0px 18px;
 	}
 	li.resp-tab-item.bath5 {
 		background: url(../images/light.png) no-repeat 0px 16px;
@@ -885,16 +911,16 @@
 		font-size: 14px;
 	}
 	li.resp-tab-item.bath1 {
-		background: url(../images/bath.png) no-repeat 0px 11px;
+		background: url(../images/blueprint.png) no-repeat 0px 11px;
 	}
 	li.resp-tab-item.bath2 {
-		background: url(../images/sofa.png) no-repeat 0px 11px;
+		background: url(../images/compass.png) no-repeat 0px 11px;
 	}
 	li.resp-tab-item.bath3 {
-		background: url(../images/vintage.png) no-repeat 0px 12px;
+		background: url(../images/eco-house.png) no-repeat 0px 12px;
 	}
 	li.resp-tab-item.bath4 {
-		background: url(../images/door.png) no-repeat 0px 11px;
+		background: url(../images/crane2.png) no-repeat 0px 11px;
 	}
 	li.resp-tab-item.bath5 {
 		background: url(../images/light.png) no-repeat 0px 11px;
@@ -1155,6 +1181,22 @@
 }
 .navbar-nav {
     margin: 17.5px 0px 0;
+}
+li.resp-tab-item.bath1 {
+	background: url("../images/blueprint.png") no-repeat 0 20px;
+	background-size: 6% !important;
+}
+li.resp-tab-item.bath2 {
+	background: url("../images/compass.png") no-repeat 0 20px;
+		background-size: 6% !important;
+}
+li.resp-tab-item.bath3 {
+	background: url("../images/eco-house.png") no-repeat 0 20px;
+		background-size: 6% !important;
+}
+li.resp-tab-item.bath4 {
+	background: url("../images/crane2.png") no-repeat 0 20px;
+		background-size: 6% !important;
 }
 
 }
@@ -1434,16 +1476,16 @@
 		padding: 50px 16px 8px 16px;
 	}
 	li.resp-tab-item.bath3 {
-		background: url(../images/vintage.png) no-repeat 31px 12px;
+		background: url(../images/eco-house.png) no-repeat 31px 12px;
 	}
 	li.resp-tab-item.bath2 {
-		background: url(../images/sofa.png) no-repeat 15px 11px;
+		background: url(../images/compass.png) no-repeat 15px 11px;
 	}
 	li.resp-tab-item.bath1 {
-		background: url(../images/bath.png) no-repeat 15px 11px;
+		background: url(../images/blueprint.png) no-repeat 15px 11px;
 	}
 	li.resp-tab-item.bath4 {
-		background: url(../images/door.png) no-repeat 15px 11px;
+		background: url(../images/crane2.png) no-repeat 15px 11px;
 	}
 	li.resp-tab-item.bath5 {
 		background: url(../images/light.png) no-repeat 18px 11px;
@@ -1527,16 +1569,16 @@
 		padding: 50px 9px 8px 9px;
 	}
 	li.resp-tab-item.bath1 {
-		background: url(../images/bath.png) no-repeat 8px 11px;
+		background: url(../images/blueprint.png) no-repeat 8px 11px;
 	}
 	li.resp-tab-item.bath2 {
-		background: url(../images/sofa.png) no-repeat 7px 11px;
+		background: url(../images/compass.png) no-repeat 7px 11px;
 	}
 	li.resp-tab-item.bath3 {
-		background: url(../images/vintage.png) no-repeat 26px 12px;
+		background: url(../images/eco-house.png) no-repeat 26px 12px;
 	}
 	li.resp-tab-item.bath4 {
-		background: url(../images/door.png) no-repeat 10px 11px;
+		background: url(../images/crane2.png) no-repeat 10px 11px;
 	}
 	li.resp-tab-item.bath5 {
 		background: url(../images/light.png) no-repeat 13px 11px;
@@ -1800,19 +1842,19 @@
 		font-size: 12px;
 	}
 	li.resp-tab-item.bath3 {
-		background: url(../images/vintage.png) no-repeat 21px 0px;
+		background: url(../images/eco-house.png) no-repeat 21px 0px;
 		background-size: 40% !important;
 	}
 	li.resp-tab-item.bath1 {
-		background: url(../images/bath.png) no-repeat 8px 3px;
+		background: url(../images/blueprint.png) no-repeat 8px 3px;
 		background-size: 63% !important;
 	}
 	li.resp-tab-item.bath2 {
-		background: url(../images/sofa.png) no-repeat 8px 2px;
+		background: url(../images/compass.png) no-repeat 8px 2px;
 		background-size: 62% !important;
 	}
 	li.resp-tab-item.bath4 {
-		background: url(../images/door.png) no-repeat 11px 3px;
+		background: url(../images/crane2.png) no-repeat 11px 3px;
 		background-size: 55% !important;
 	}
 	li.resp-tab-item.bath5 {
