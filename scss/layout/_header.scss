@@ -10,34 +10,35 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
 .head {
     padding: 1em 0;
     background: $header_menu_background;
 }
-
 /*Sticky menu*/
 .sticky {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  top: 0;
-  z-index: 100;
-  border-top: 0;
-  .company_logo {
-      // visibility: hidden;
-  }
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+
+    .company_logo {
+        // visibility: hidden;
+    }
 }
-
-
 
 .navbar-top {
     float: left;
     width: 70%;
 }
+
 .company_logo {
     width: 150px;
     height: 63px;
 }
+
 .banner {
     // margin-top: 11em;
     h2 {
@@ -53,6 +54,7 @@
         width: 100px;
         height: 100px;
     }
+
     p {
         font-size: 0.9em;
         color: $header_font_color;
@@ -60,14 +62,17 @@
         width: 50%;
         margin: 0 auto;
     }
+
     span {
         display: block;
         margin: 5em 0;
     }
 }
+
 .header1 {
     height: 92px;
 }
+
 .banner-text {
     border: 2px solid $header_font_color;
     display: inline-block;
@@ -79,22 +84,26 @@
     -o-transform: rotate(45deg) translate3d(0, 0, 0);
     transform: rotate(45deg) translate3d(0, 0, 0);
 }
+
 .banner-t {
     text-align: center;
     margin: 6em auto;
     width: 20%;
     position: relative;
+
     b {
         width: 100%;
         height: 2px;
         display: block;
         background: $header_font_color_accent;
         margin-bottom: 3px;
+
         .lin {
             width: 80%;
             margin: 0 auto;
         }
     }
+
     span {
         width: 40px;
         height: 40px;
@@ -103,6 +112,7 @@
         position: absolute;
         top: -7px;
         left: 45%;
+
         i {
             width: 20px;
             height: 20px;
@@ -117,13 +127,16 @@
         }
     }
 }
+
 .logo {
     h1 {
         font-size: 1.8em;
         font-family: 'Montserrat', sans-serif;
+
         a {
             text-decoration: none;
             color: $header_font_color;
+
             span {
                 width: 40px;
                 height: 40px;
@@ -136,6 +149,7 @@
                 transform: rotate(45deg) translate3d(0, 0, 0);
                 margin-right: 12px;
             }
+
             b {
                 width: 40px;
                 height: 40px;
@@ -148,6 +162,7 @@
                 line-height: 1.1em;
                 text-align: center;
             }
+
             i {
                 display: block;
                 font-style: normal;
@@ -157,20 +172,24 @@
         }
     }
 }
+
 .navbar-brand {
     height: auto;
     padding: 0;
     font-size: 18px;
     line-height: 20px;
 }
+
 .navbar-nav {
     float: right;
     margin-top: 1.45em;
 }
+
 .header-left {
     float: right;
     margin-top: 1.4em;
 }
+
 .header-left {
     ul {
         li {
@@ -181,6 +200,7 @@
         }
     }
 }
+
 .link-effect-4 {
     a {
         padding: 0 10px;
@@ -188,6 +208,7 @@
         text-shadow: none;
         position: relative;
     }
+
     a::before {
         position: absolute;
         top: 0;
@@ -201,49 +222,60 @@
         -moz-transition: max-height 0.5s;
         transition: max-height 0.5s;
     }
+
     a:hover::before {
         max-height: 110%;
         color: $header_font_color_accent;
     }
 }
+
 .header-left ul li a {
     text-decoration: none;
     color: $header_font_color;
 }
+
 .header-left ul li a:hover {
     color: $header_font_color_accent;
 }
+
 .header-left ul li i {
     left: -.5em;
 }
+
 .navbar-default {
     border: none;
     background: none;
     min-height: auto;
     margin-bottom: 0;
 }
+
 div#bs-example-navbar-collapse-1 {
     padding: 0;
 }
+
 ul.nav.navbar-nav li a {
     font-size: 1.1em;
     color: $header_font_color;
     margin: 0 15px;
     padding: 0;
 }
+
 .nav > li > a:focus,
 .nav > li > a:hover {
     text-decoration: none;
     background: none !important;
 }
+
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
     color: $header_font_color;
 }
+
 ul.nav.navbar-nav li.active a {
     color: $header_font_color_accent;
     background: none;
 }
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
@@ -251,20 +283,22 @@ ul.nav.navbar-nav li.active a {
     background: none;
 }
 @media(max-width:770px) {
-  .company_logo{
-  visibility: hidden;
-  }
-    #first_on_list {
+    .company_logo {
+        visibility: hidden;
     }
+
+    #first_on_list {}
+
     .navbar-toggle {
         float: left;
         border: none;
-
     }
+
     .navbar-default .navbar-collapse,
     .navbar-default .navbar-form {
         border: none;
     }
+
     ul.nav.navbar-nav li a {
         margin: 7px 0;
         display: inline-block;
@@ -272,24 +306,30 @@ ul.nav.navbar-nav li.active a {
         width: auto;
         margin-left: 10px;
     }
+
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #FFF;
     }
+
     .navbar-toggle .icon-bar {
         width: 27px;
         height: 3px;
     }
+
     .navbar-default .navbar-toggle:focus,
     .navbar-default .navbar-toggle:hover {
         background-color: transparent;
     }
+
     .navbar-top {
         width: 47%;
         margin: 0;
     }
+
     .navbar-nav {
         margin: 7.5px 0;
     }
+
     .navbar-nav {
         width: 100%;
     }
@@ -303,28 +343,40 @@ ul.nav.navbar-nav li.active a {
         width: 87%;
         z-index: 999;
     }
+
     ul.nav.navbar-right {
         text-align: center;
     }
+
     .navbar-right .dropdown-menu {
         min-width: 100%;
         position: relative;
         text-align: center;
     }
+
     .navbar-toggle .icon-bar {
         background: $accent_color;
     }
+
     .navbar-toggle {
         margin: 18px 0 0;
         background: none;
     }
+
     .navbar-nav > li > a {
         width: 25%;
         text-align: center;
         margin: 5px auto;
     }
+
     div#bs-example-navbar-collapse-1 {
         width: 95.2%;
         margin-top: 1em;
     }
 }
+
+@media(max-width:630px) {
+.header-left {
+    li{
+    visibility: hidden;}
+}}

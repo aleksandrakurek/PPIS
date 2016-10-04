@@ -3405,6 +3405,12 @@ ul.nav.navbar-nav li.active a {
   }
 }
 
+@media (max-width: 630px) {
+  .header-left li {
+    visibility: hidden;
+  }
+}
+
 /*--Projects--*/
 .projects_list li {
   color: #A9A8A8;
