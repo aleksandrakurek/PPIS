@@ -2772,6 +2772,11 @@ p.footer-grid a:hover {
 }
 
 /*--//footer--*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body,
 html {
   background: #fff;
