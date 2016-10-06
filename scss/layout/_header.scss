@@ -10,6 +10,21 @@
     background-size: cover;
     background-attachment: fixed;
 }
+@media(max-width:630px) {
+    .header {
+        margin:0;
+        padding:0;
+        width: 100%;
+        height: 100vh;
+        // height: 800px;
+        text-align: center;
+        left: 0;
+        top: 0;
+        background: url("../images/main6.jpg") no-repeat center;
+        background-size: cover;
+        // background-attachment: fixed;
+    }
+}
 
 .head {
     padding: 1em 0;
@@ -373,9 +388,10 @@ ul.nav.navbar-nav li.active a {
         margin-top: 1em;
     }
 }
-
 @media(max-width:630px) {
-.header-left {
-    li{
-    visibility: hidden;}
-}}
+    .header-left {
+        li {
+            visibility: hidden;
+        }
+    }
+}
