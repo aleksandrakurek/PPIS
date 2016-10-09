@@ -4094,5 +4094,34 @@ li.resp-tab-item.bath4 {
 }
 
 /*-- //team --*/
+/*--references--*/
+.references {
+  padding: 90px 0;
+  background-color: white;
+}
+
+.references-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.references-list li {
+  text-align: center;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #464646;
+}
+
+.references-list li img {
+  vertical-align: middle;
+  border: 0;
+  padding: 30px;
+}
+
+/*-- //references --*/
 
 /*# sourceMappingURL=maps/style.css.map */
