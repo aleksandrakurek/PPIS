@@ -2089,8 +2089,8 @@ table {
   background: url("../images/crane.png") no-repeat center;
 }
 
-.bridge {
-  background: url("../images/bridge.png") no-repeat center;
+.road {
+  background: url("../images/road.png") no-repeat center;
 }
 
 .pipe-valve {
@@ -2297,8 +2297,8 @@ table {
   background: url("../images/construction6.jpg") no-repeat center;
 }
 
-#environmental:hover {
-  background: url("../images/environmental2.jpg") no-repeat center;
+#road_constr:hover {
+  background: url("../images/roadconstr.jpg") no-repeat center;
 }
 
 #gas:hover {
@@ -3492,6 +3492,15 @@ ul.nav.navbar-nav li.active a {
 }
 
 /*--Projects--*/
+.services-content {
+  margin-top: 80px;
+}
+
+.services-content p {
+  font-size: 16px;
+  color: #464646;
+}
+
 .projects_list li {
   color: #A9A8A8;
   line-height: 30px;

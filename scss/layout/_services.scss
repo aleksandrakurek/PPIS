@@ -1,4 +1,14 @@
 /*--Projects--*/
+
+.services-content{
+	margin-top: 80px;
+	p{
+		font-size: 16px;
+		color: $item_color_2;
+	}
+}
+
+
 .projects_list {
 	li {
 		color: $table_text_color_projects;
@@ -122,6 +132,8 @@
 	-ms-transition: 0.5s all;
 }
 /*--//service--*/
+
+
 .sap_tabs {
 	clear: both;
 	padding: 0;
