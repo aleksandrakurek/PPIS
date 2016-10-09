@@ -3492,13 +3492,21 @@ ul.nav.navbar-nav li.active a {
 }
 
 /*--Projects--*/
-.services-content {
-  margin-top: 80px;
+.services-content p {
+  font-size: 18px;
+  color: lightgrey;
+  padding-bottom: 8px;
 }
 
-.services-content p {
+.services-content li {
+  list-style-type: disc;
+  color: grey;
   font-size: 16px;
-  color: #464646;
+  line-height: 20px;
+}
+
+.services-content hr {
+  color: white;
 }
 
 .projects_list li {
@@ -4132,5 +4140,89 @@ li.resp-tab-item.bath4 {
 }
 
 /*-- //references --*/
+/*--testimonial--*/
+.capabilities h3, .testimonial h3, .team-section h3, .furniture h3, .choose-section h3 {
+  font-size: 3em;
+  color: #2d3134;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.testimonial {
+  padding: 5em 0;
+  background: #eee;
+}
+
+.testimonial-info p {
+  color: #777;
+  font-size: 1em;
+  line-height: 1.8em;
+}
+
+.testimonial-info h5 {
+  color: #282828;
+  font-size: 1.5em;
+  margin: 0.5em 0 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+
+.testimonial-info p span {
+  font-size: 2em;
+  color: #222;
+}
+
+.testimonial-info {
+  margin-top: 2em;
+}
+
+.wel-grid p, .text-box p, .testimonial-info p, .works-grid p, .about-at p, .team-grid p, .furniture-grid p, .serce-grid p, .choose-gd p, .cont-info p, .contact-bottom p {
+  font-size: 0.96em;
+}
+
+.capabilities h3, .testimonial h3, .team-section h3, .furniture h3, .choose-section h3 {
+  font-size: 2.8em;
+}
+
+.welcome-section, .capabilities, .testimonial, .about-section, .team-section, .furniture, .service-section, .choose-section, .gallery, .pages, .contact {
+  padding: 4em 0;
+}
+
+.testimonial-grid {
+  float: left;
+  width: 40%;
+}
+
+.testimonial-grid-right {
+  float: left;
+  width: 60%;
+}
+
+.works-grids {
+  margin-top: 3em;
+}
+
+.works-grid p {
+  color: #777;
+  font-size: 1em;
+  line-height: 1.8em;
+  margin-top: 1em;
+}
+
+.works-grid img {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+.works-grid img:hover {
+  box-shadow: 9px 13px 26px -8px #2d3134;
+}
+
+/*-- //testimonial --*/
 
 /*# sourceMappingURL=maps/style.css.map */

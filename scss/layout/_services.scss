@@ -1,13 +1,23 @@
 /*--Projects--*/
+.services-content {
 
-.services-content{
-	margin-top: 80px;
-	p{
+	p {
+		font-size: 18px;
+		color: lightgrey;
+		padding-bottom: 8px;
+	}
+
+	li {
+		list-style-type: disc;
+		color: grey;
 		font-size: 16px;
-		color: $item_color_2;
+		line-height: 20px;
+	}
+
+	hr {
+		color: white;
 	}
 }
-
 
 .projects_list {
 	li {
@@ -15,10 +25,12 @@
 		line-height: 30px;
 	}
 }
+
 .ser-top {
 	margin-bottom: 8em;
 	/*-- agileits --*/
 }
+
 .ser-top h3 {
 	text-align: center;
 	margin-bottom: 0.4em;
@@ -26,12 +38,14 @@
 	font-weight: bold;
 	color: #000;
 }
+
 .ser-t {
 	text-align: center;
 	margin: 0 auto;
 	width: 20%;
 	position: relative;
 }
+
 .ser-t b {
 	width: 100%;
 	height: 2px;
@@ -39,10 +53,12 @@
 	background: $accent_color_projects;
 	margin-bottom: 3px;
 }
+
 .ser-t b.line {
 	width: 80%;
 	margin: 0 auto;
 }
+
 .ser-t span {
 	width: 40px;
 	height: 40px;
@@ -52,6 +68,7 @@
 	top: -7px;
 	left: 42%;
 }
+
 .ser-t span i {
 	width: 20px;
 	height: 20px;
@@ -64,6 +81,7 @@
 	transform: rotate(45deg) translate3d(0, 0, 0);
 	margin-left: 0.7em;
 }
+
 .ser-head {
 	-webkit-transform: rotate(45deg) translate3d(0, 0, 0);
 	-moz-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -77,6 +95,7 @@
 	float: left;
 	width: 25%;
 }
+
 .ser-grid:hover {
 	background: $accent_color_projects;
 	transition: 0.5s all;
@@ -85,6 +104,7 @@
 	-moz-transition: 0.5s all;
 	-ms-transition: 0.5s all;
 }
+
 .ser-grid {
 	width: 220px;
 	height: 220px;
@@ -93,6 +113,7 @@
 	border: 2px solid $accent_color_projects;
 	position: relative;
 }
+
 .ser-grid1 {
 	transform: rotate(-45deg) translate3d(0, 0, 0);
 	-webkit-transform: rotate(-45deg) translate3d(0, 0, 0);
@@ -104,18 +125,22 @@
 	top: 14%;
 	left: 4%;
 }
+
 .service {
 	padding: 6em 0 8em;
 }
+
 .ser-grid1 i {
 	font-size: 2em;
 	color: $font_color_2_projects;
 }
+
 .ser-grid1 h3 {
 	font-size: 1.8em;
 	color: $font_color_2_projects;
 	margin: 0.4em 0;
 }
+
 .ser-grid1 p {
 	font-size: 0.9em;
 	color: $item_color_projects;
@@ -123,6 +148,7 @@
 	margin: 0 0 1em;
 	/*-- agileits --*/
 }
+
 .ser-grid:hover .ser-grid1 p {
 	color: $font_color_1_projects;
 	transition: 0.5s all;
@@ -132,20 +158,21 @@
 	-ms-transition: 0.5s all;
 }
 /*--//service--*/
-
-
 .sap_tabs {
 	clear: both;
 	padding: 0;
 }
+
 .top1 {
 	margin-top: 2%;
 }
+
 .resp-tabs-list {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
+
 .resp-tab-item {
 	margin: 0;
 	padding: 21px 20px;
@@ -167,63 +194,77 @@
 	font-weight: 100;
 	text-align: right;
 }
+
 .resp-tab-active,
 .resp-tab-item:hover {
 	color: $accent_color_projects;
 	border-right: 2px solid $accent_color_projects;
 }
+
 .resp-tabs-container {
 	padding: 0;
 	clear: left;
 }
+
 h2.resp-accordion {
 	cursor: pointer;
 	padding: 5px;
 	display: none;
 }
+
 .resp-tab-content {
 	display: none;
 }
+
 .resp-accordion-active,
 .resp-content-active {
 	display: block;
 }
+
 .services {
 	background: $background_color;
 	padding: 90px 0;
 }
+
 .sap_tabs {
 	margin-top: 55px;
 }
+
 li.resp-tab-item.bath1 {
 	background: url("../images/blueprint.png") no-repeat 0 20px;
 }
+
 li.resp-tab-item.bath2 {
 	background: url("../images/compass.png") no-repeat 0 20px;
 }
+
 li.resp-tab-item.bath3 {
 	background: url("../images/eco-house.png") no-repeat 0 20px;
 }
+
 li.resp-tab-item.bath4 {
 	background: url("../images/crane2.png") no-repeat 0 20px;
 }
+
 .services h3 {
 	color: $font_color_1_projects;
 }
+
 .recharge-right {
 	padding: 0;
 }
+
 .product-right h4 {
 	font-size: 24px;
 	color: $accent_color_projects;
 }
+
 .product-right p {
 	font-size: 14px;
 	color: $table_text_color_projects;
 	line-height: 2.2em;
 	margin-top: 26px;
 }
-
 @media(max-width:770px) {
 	.product-right {
 		float: none;
