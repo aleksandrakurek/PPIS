@@ -6,7 +6,6 @@ It's work in progress.
 
 You can check this here -- > https://aleksandrakurek.github.io/PPIS/
 
-
 * Parralax effect in header & about us section (css)
 * smooth scrooling (jQuery)
 * sticky menu (jQuery)
@@ -18,3 +17,6 @@ Used in this project:
 * Sass
 * Gulp
 * RWD
+
+in future:
+* CSS3 slider in references
