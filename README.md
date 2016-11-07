@@ -24,3 +24,4 @@ In future:
 To-do:
 * add correct facebook link
 * make contact form functioning
+* make better mobile menu
