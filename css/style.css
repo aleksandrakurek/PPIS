@@ -3773,6 +3773,35 @@ li.resp-tab-item.bath4 {
 }
 
 /*-- //products --*/
+@media (max-width: 330px) {
+  .product-right {
+    margin: 0;
+    padding: 0;
+  }
+  .product-left {
+    visibility: hidden;
+  }
+  .sap_tabs {
+    margin-top: 10px;
+  }
+  li.resp-tab-item.bath1 {
+    background-position: -9999px -9999px;
+  }
+  li.resp-tab-item.bath2 {
+    background-position: -9999px -9999px;
+  }
+  li.resp-tab-item.bath3 {
+    background-position: -9999px -9999px;
+  }
+  li.resp-tab-item.bath4 {
+    background-position: -9999px -9999px;
+  }
+  .resp-tab-item span {
+    padding: 0;
+    margin: 0;
+  }
+}
+
 /*--team--*/
 .degree {
   color: #464646;
