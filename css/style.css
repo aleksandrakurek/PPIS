@@ -3492,6 +3492,18 @@ ul.nav.navbar-nav li.active a {
   }
 }
 
+@media (max-width: 330px) {
+  body {
+    border: 2px solid red;
+  }
+  .head {
+    visibility: hidden;
+  }
+  .head .company_logo {
+    visibility: hidden;
+  }
+}
+
 /*--Projects--*/
 .services-content p {
   font-size: 18px;
