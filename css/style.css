@@ -2767,6 +2767,7 @@ a.callbacks_nav.callbacks2_nav.next {
 }
 
 .social li a {
+  margin-top: 20px;
   width: 80px;
   height: 80px;
   display: block;
