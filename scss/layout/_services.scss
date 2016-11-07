@@ -279,7 +279,8 @@ li.resp-tab-item.bath4 {
 
 @media(max-width:330px) {
 	.product-right {
-		margin: 0;
+		margin: 0 auto;
+		margin-left: 20px;
 		padding: 0;
 	}
 	.product-left {
