@@ -178,6 +178,7 @@
     display: block;
 }
 .team_pos img {
+
     transition: all 0.3s linear 0s;
     -moz-transition: all 0.3s linear 0s;
     -webkit-transition: all 0.3s linear 0s;
@@ -185,6 +186,8 @@
     -o-transition: all 0.3s linear 0s;
     width: 100%;
     // border: 1px solid $team_image_border_color;
+
+
 }
 .team_info {
     position: absolute;
@@ -289,6 +292,7 @@
     -webkit-border-radius: 50%;
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
+
 }
 .team_gd1:hover .team_info a {
     transform: scale(1) rotate(0deg);
