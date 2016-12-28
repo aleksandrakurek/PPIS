@@ -10,7 +10,7 @@
     background-size: cover;
     background-attachment: fixed;
 }
-@media(max-width:630px) {
+@media(max-width:640px) {
     .header {
         margin:0;
         padding:0;
@@ -23,6 +23,9 @@
         background: url("../images/main6.jpg") no-repeat center;
         background-size: cover;
         // background-attachment: fixed;
+    }
+    .company_logo {
+        // visibility: hidden;
     }
 }
 
