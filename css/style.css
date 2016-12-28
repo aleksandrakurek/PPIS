@@ -2693,6 +2693,10 @@ a.callbacks_nav.callbacks2_nav.next {
   min-height: 500px;
 }
 
+.scrolloff {
+  pointer-events: none;
+}
+
 /*-- //contact --*/
 /*-- contact --*/
 .mail_us {
@@ -2707,7 +2711,9 @@ a.callbacks_nav.callbacks2_nav.next {
   width: 100%;
 }
 
-.mail_right input[type="text"], .mail_right input[type="email"], .mail_right textarea {
+.mail_right input[type="email"],
+.mail_right input[type="text"],
+.mail_right textarea {
   background: none;
   width: 100%;
   color: #A9A8A8;

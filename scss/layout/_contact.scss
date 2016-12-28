@@ -1,17 +1,21 @@
 /*-- contact --*/
 .contact {
 	padding: 6em 0;
-	a:hover{
-		color:black;
+
+	a:hover {
+		color: black;
 	}
 }
-.faktura{
+
+.faktura {
 	color: white;
 	font-size: 20px;
 }
+
 .contact form {
 	margin-top: 6em;
 }
+
 .contact h2 {
 	font-size: 3em;
 	color: $font_color_2;
@@ -19,9 +23,11 @@
 	font-weight: bold;
 	text-align: center;
 }
+
 .contact-grid1 {
 	text-align: center;
 }
+
 .con-ic {
 	width: 30px;
 	height: 30px;
@@ -34,6 +40,7 @@
 	transform: rotate(45deg) translate3d(0, 0, 0);
 	margin: 0 auto;
 }
+
 .contact-grid1 i {
 	width: 30px;
 	height: 30px;
@@ -46,42 +53,52 @@
 	transform: rotate(-45deg) translate3d(0, 0, 0);
 	line-height: 1.9em;
 }
+
 .contact-grid1 h4 {
 	font-size: 1.5em;
 	color: $font_color_2;
 	margin: 1em 0 0.5em;
 }
+
 .contact-grid1 p {
 	font-size: 1em;
 	color: $item_color;
 	line-height: 1.5em;
 	margin: 0;
 }
+
 .contact-grid1 p a {
 	color: $item_color;
 	text-decoration: none;
 }
+
 .contact-grid1 p a:hover {
 	color: $font_color_2;
 }
+
 .contact-grid1 p span {
 	display: block;
 }
+
 .contact-grids {
 	margin: 5em 0 0;
 }
+
 .contact-form1 h4,
 .contact-me h4 {
 	font-size: 1em;
 	color: $table_border_color;
 	margin: 0 0 0.5em;
 }
+
 .contact-form1 {
 	padding: 0 1em 0 0;
 }
+
 .contact-form {
 	padding: 0;
 }
+
 .contact-form1 input[type="email"],
 .contact-form1 input[type="text"],
 .contact-me textarea {
@@ -93,12 +110,15 @@
 	color: $item_color;
 	width: 100%;
 }
+
 .contact-me textarea {
 	min-height: 300px;
 }
+
 .contact-me {
 	margin-top: 1em;
 }
+
 .contact-grids1 input[type="submit"] {
 	outline: none;
 	padding: 10px 0;
@@ -109,6 +129,7 @@
 	width: 100%;
 	margin: 1.5em 0 0;
 }
+
 .contact-grids1 input[type="submit"]:hover {
 	background: $font_color_2;
 	transition: 0.5s all;
@@ -117,46 +138,58 @@
 	-moz-transition: 0.5s all;
 	-ms-transition: 0.5s all;
 }
+
 .map iframe {
+	// pointer-events: none;
 	width: 100%;
 	min-height: 500px;
 }
+
+.scrolloff {
+	pointer-events: none;
+}
 /*-- //contact --*/
-
-
 /*-- contact --*/
-.mail_us{
-	margin-bottom:70px;
+.mail_us {
+	margin-bottom: 70px;
 }
+
 .navbar-default .navbar-nav > li > a.active {
-    color: $team_text_color !important;
+	color: $team_text_color !important;
 }
-.mail_left img{
-	width:100%;
+
+.mail_left img {
+	width: 100%;
 }
-.mail_right input[type="text"], .mail_right input[type="email"], .mail_right textarea {
-    background: none;
-    width: 100%;
-    color: $table_text_color;
-    padding: 12px 10px;
-    border: none;
-    margin-bottom: 32px;
-	outline:none;
-    border-bottom: 2px solid $accent_color;
-}
+
+.mail_right input[type="email"],
+.mail_right input[type="text"],
 .mail_right textarea {
-	height:200px;
-	resize:none;
+	background: none;
+	width: 100%;
+	color: $table_text_color;
+	padding: 12px 10px;
+	border: none;
+	margin-bottom: 32px;
+	outline: none;
+	border-bottom: 2px solid $accent_color;
 }
+
+.mail_right textarea {
+	height: 200px;
+	resize: none;
+}
+
 .mail_right input[type="submit"] {
-    border: none;
-    outline: none;
-    color: $font_color_1;
-    background: $accent_color;
-    font-size: 16px;
-    padding: 9px 38px;
+	border: none;
+	outline: none;
+	color: $font_color_1;
+	background: $accent_color;
+	font-size: 16px;
+	padding: 9px 38px;
 }
-.mail_right input[type="submit"]:hover{
-    background: $background_color_accent;
+
+.mail_right input[type="submit"]:hover {
+	background: $background_color_accent;
 }
 /*-- contact --*/

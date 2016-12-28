@@ -48,7 +48,7 @@
 				<div class="navbar-top">
 
 
-<!-- hamburger menu -->
+					<!-- hamburger menu -->
 					<!-- <div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 							<span class="sr-only">Toggle navigation</span>
@@ -56,37 +56,37 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button> -->
-<!-- hamburger menu end-->
+					<!-- hamburger menu end-->
 
 
-						<div class="navbar-brand logo ">
-							<h1 class="animated wow fadeIn" data-wow-delay="1s">
+					<div class="navbar-brand logo ">
+						<h1 class="animated wow fadeIn" data-wow-delay="1s">
 							<a href="#header"><img class="company_logo" alt="" src="images/logofirmamini.png" width="150" height="63"/></a>
 						</h1>
 
-						</div>
-					</div>
-
-					<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav link-effect-4">
-							<li><a href="#services" data-hover="O NAS" id="first_on_list">O NAS</a> </li>
-							<li><a href="#projects" data-hover="PROJEKTY">PROJEKTY </a> </li>
-							<li><a href="#team" data-hover="ZESPÓŁ">ZESPÓŁ</a></li>
-							<li><a href="#contact" data-hover="KONTAKT">KONTAKT</a></li>
-						</ul>
 					</div>
 				</div>
 
-				<div class="header-left animated wow fadeInLeft animated" data-wow-delay="0.5s">
-					<ul>
-						<li><i class="glyphicon glyphicon-envelope"></i><a href="mailto:jerzy.sowa@gmail.com">jerzy.sowa@gmail.com</a></li>
-						<li><i class="glyphicon glyphicon-earphone"></i><a href="tel:327206384">32 720 63 84</a></li>
-
+				<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav link-effect-4">
+						<li><a href="#services" data-hover="O NAS" id="first_on_list">O NAS</a> </li>
+						<li><a href="#projects" data-hover="PROJEKTY">PROJEKTY </a> </li>
+						<li><a href="#team" data-hover="ZESPÓŁ">ZESPÓŁ</a></li>
+						<li><a href="#contact" data-hover="KONTAKT">KONTAKT</a></li>
 					</ul>
 				</div>
-				<div class="clearfix"></div>
 			</div>
+
+			<div class="header-left animated wow fadeInLeft animated" data-wow-delay="0.5s">
+				<ul>
+					<li><i class="glyphicon glyphicon-envelope"></i><a href="mailto:jerzy.sowa@gmail.com">jerzy.sowa@gmail.com</a></li>
+					<li><i class="glyphicon glyphicon-earphone"></i><a href="tel:327206384">32 720 63 84</a></li>
+
+				</ul>
+			</div>
+			<div class="clearfix"></div>
 		</div>
+	</div>
 	<!-- </div> -->
 
 
@@ -405,15 +405,23 @@
 				<span><i></i></span>
 				<b class="line"></b>
 			</div>
-			<form action="#" method="post">
+
+
+			<?php
+			$action=$_REQUEST['action'];
+			if ($action=="")    /* display the contact form */
+			    {
+			    ?>
+			<form action="" method="POST" enctype="multipart/form-data">
+				    <input type="hidden" name="action" value="submit">
 				<div class="contact-grids1">
 					<div class="col-md-5 contact-form1">
 						<h4>Imię i nazwisko</h4>
-						<input type="text" name="Name" placeholder="" required="">
+						<input type="text" name="name" placeholder="" required="" value="">
 					</div>
 					<div class="col-md-5 contact-form1">
-						<h4>Email</h4>
-						<input type="email" name="Email nadawcy" placeholder="" required="">
+						<h4>Email nadawcy</h4>
+						<input type="text" name="email" placeholder="" required="" value="">
 					</div>
 					<div class="col-md-2 contact-form">
 						<input type="submit" value="Wyślij">
@@ -422,7 +430,7 @@
 					<div class="contact-me animated wow slideInUp" data-wow-delay=".3s">
 						<h4>Wiadomość</h4>
 
-						<textarea name="Message" placeholder="" required=""></textarea>
+						<textarea name="message" placeholder="" required=""></textarea>
 
 
 					</div>
@@ -453,8 +461,10 @@
 						<p>
 							<a href="tel:327206384">
 							32 720 63 84 </a>
-							<a href="tel:605720489">
-								<span>605 720 489</span></a>
+							<a href="tel:327110005">
+								<span>32 711 00 05</span></a>
+							<!-- <a href="tel:605720489"> -->
+								<!-- <span>605 720 489</span></a> -->
 						</p>
 					</div>
 				</div>
@@ -485,7 +495,7 @@
 				<p class="faktura">Pracownia Projektowa Inżynierii Sanitarnej
 					<br /> Jerzy Sowa
 					<br /> ul. Kościuszki 134 <br /> 32-540 Trzebinia
-					<br /> NIP  628 107 35 53
+					<br /> NIP 628 107 35 53
 					<br /> REGON 270627920</p>
 			</div>
 
@@ -512,8 +522,8 @@
 
 		</div>
 	</div>
-	<div class="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10225.155673518871!2d19.454014!3d50.155733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6b3097b8ff8cd959!2sPracownia+Projektowa+In%C5%BCynierii+Sanitarnej!5e0!3m2!1spl!2spl!4v1467706857880"
+	<div id="overlay" class="map">
+		<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10225.155673518871!2d19.454014!3d50.155733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6b3097b8ff8cd959!2sPracownia+Projektowa+In%C5%BCynierii+Sanitarnej!5e0!3m2!1spl!2spl!4v1467706857880"
 						width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
 
