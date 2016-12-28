@@ -2,7 +2,7 @@
 
 Main site for engineering company.
 
-It's work in progress.
+Still it's work in progress.
 
 You can check this here -- > https://aleksandrakurek.github.io/PPIS/
 
@@ -18,5 +18,10 @@ Used in this project:
 * Gulp
 * RWD
 
-in future:
+In future:
 * CSS3 slider in references
+
+To-do:
+* add correct facebook link
+* make contact form functioning
+* make better mobile menu

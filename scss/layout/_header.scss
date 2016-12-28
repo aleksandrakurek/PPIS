@@ -399,3 +399,16 @@ ul.nav.navbar-nav li.active a {
         }
     }
 }
+
+
+// Mobile menu - temporarily disabled
+
+@media(max-width:330px) {
+       .head{
+            visibility: hidden;
+            .company_logo{
+                    visibility: hidden;
+            }
+        }
+}
+// Mobile menu - end
