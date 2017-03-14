@@ -253,7 +253,12 @@ h3.title span:after {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
+	&.top{
+		width:100%;
+	}
 }
+
+
 @media (min-width: 768px) {
 	.container {
 		width: 750px;
@@ -270,7 +275,7 @@ h3.title span:after {
 	}
 }
 /*-- to-top --*/
-#toTop {
+#myBtn {
 	display: none;
 	text-decoration: none;
 	position: fixed;
@@ -283,15 +288,16 @@ h3.title span:after {
 	border: none;
 	text-indent: 100%;
 	background: url("../images/arr.png") no-repeat 0 0;
+	outline:0;
 }
 
-#toTopHover {
-	width: 32px;
-	height: 32px;
-	display: block;
-	overflow: hidden;
-	float: right;
-	opacity: 0;
-	-moz-opacity: 0;
-}
+//#myBtn {
+//	width: 32px;
+//	height: 32px;
+//	display: block;
+//	overflow: hidden;
+//	float: right;
+//	opacity: 0;
+//	-moz-opacity: 0;
+//}
 /*-- //to-top --*/

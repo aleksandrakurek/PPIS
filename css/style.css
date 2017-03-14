@@ -3092,6 +3092,10 @@ h3.title span:after {
   margin-left: auto;
 }
 
+.container.top {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -3111,7 +3115,7 @@ h3.title span:after {
 }
 
 /*-- to-top --*/
-#toTop {
+#myBtn {
   display: none;
   text-decoration: none;
   position: fixed;
@@ -3124,16 +3128,7 @@ h3.title span:after {
   border: none;
   text-indent: 100%;
   background: url("../images/arr.png") no-repeat 0 0;
-}
-
-#toTopHover {
-  width: 32px;
-  height: 32px;
-  display: block;
-  overflow: hidden;
-  float: right;
-  opacity: 0;
-  -moz-opacity: 0;
+  outline: 0;
 }
 
 /*-- //to-top --*/
@@ -3167,6 +3162,7 @@ h3.title span:after {
 .head {
   padding: 1em 0;
   background: rgba(169, 168, 168, 0.34);
+  position: relative;
 }
 
 /*Sticky menu*/
@@ -3181,12 +3177,12 @@ h3.title span:after {
 
 .navbar-top {
   float: left;
-  width: 70%;
 }
 
 .company_logo {
   width: 150px;
   height: 63px;
+  margin-left: 80px;
 }
 
 .banner h2 {
@@ -3504,6 +3500,23 @@ ul.nav.navbar-nav li.active a {
     visibility: hidden;
   }
   .head .company_logo {
+    visibility: hidden;
+  }
+}
+
+.job {
+  color: #F2593A;
+  font-size: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+  .job {
     visibility: hidden;
   }
 }
