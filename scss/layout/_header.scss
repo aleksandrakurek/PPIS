@@ -11,7 +11,7 @@
   background-attachment: fixed;
 }
 
-@media(max-width: 640px) {
+@media(max-width: 770px) {
   .header {
     margin: 0;
     padding: 0;
@@ -20,7 +20,10 @@
     background-attachment: initial;
   }
   .company_logo {
-    // visibility: hidden;
+     //visibility: hidden;
+  }
+  .collapse{
+    display: none;
   }
 }
 

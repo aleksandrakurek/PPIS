@@ -3144,13 +3144,16 @@ h3.title span:after {
   background-attachment: fixed;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 770px) {
   .header {
     margin: 0;
     padding: 0;
     height: 100vh;
     background-size: cover;
     background-attachment: initial;
+  }
+  .collapse {
+    display: none;
   }
 }
 
